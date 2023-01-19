@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Navbar from '../components/navbar'
 
-// const inter = Inter({ weight: 'variable', subsets: ['latin'] })
+const inter = Inter({ weight: 'variable', subsets: ['latin'] })
 
 export default function template() {
   return (

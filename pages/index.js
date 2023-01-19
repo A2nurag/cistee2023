@@ -28,8 +28,8 @@ export default function Home() {
                 CISTEE 2023
               </h1>
               <p className='text-xl text-white text-opacity-60 font-bold uppercase'>
-                2022 IEEE 6th International Conference on Condition Assessment
-                Techniques in Electrical Systems
+                Computational Intelligence and Smart Technologies in Electrical
+                Engineering
               </p>
             </div>
             <img
