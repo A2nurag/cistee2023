@@ -16,7 +16,7 @@ export default function Registration() {
       <main className={inter.className}>
         <Navbar pageName='registration' />
 
-        <section className='bg-[#7CEA9C] py-20 w-full text-slate-800 min-h-max'>
+        <section className='bg-[#8de4a6] py-20 w-full text-slate-800 min-h-max'>
           <div className='container mx-auto max-w-5xl text-justify'>
             <h1 className='text-5xl font-extrabold mb-6 uppercase'>
               Registration

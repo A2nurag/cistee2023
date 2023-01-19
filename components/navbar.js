@@ -20,9 +20,9 @@ export default function Navbar({ pageName }) {
         style={{
           background: `${bg}`,
         }}
-        className='bg-black bg-opacity-90'
+        className='bg-zinc-900 hover:bg-zinc-900'
       >
-        <div className='flex align-center justify-center gap-10 py-6'>
+        <div className='flex align-center justify-end gap-10 py-6 px-5 max-w-[1800px]'>
           <Link
             href='/'
             className={pageName == 'home' ? linkClassPCActive : linkClassPC}
@@ -30,7 +30,6 @@ export default function Navbar({ pageName }) {
           >
             Home
           </Link>
-
           <Link
             href='/dates'
             className={pageName == 'dates' ? linkClassPCActive : linkClassPC}
@@ -38,7 +37,6 @@ export default function Navbar({ pageName }) {
           >
             Dates
           </Link>
-
           <Link
             href='/registration'
             className={
@@ -48,7 +46,6 @@ export default function Navbar({ pageName }) {
           >
             Registration
           </Link>
-
           <Link
             href='/callForPapers'
             className={
@@ -58,7 +55,6 @@ export default function Navbar({ pageName }) {
           >
             Call for Papers
           </Link>
-
           <Link
             href='/paperSubmission'
             className={
@@ -68,7 +64,6 @@ export default function Navbar({ pageName }) {
           >
             Paper Submission
           </Link>
-
           <Link
             href='/committee'
             className={
@@ -78,7 +73,6 @@ export default function Navbar({ pageName }) {
           >
             Committee
           </Link>
-
           <Link
             href='/program'
             className={pageName == 'program' ? linkClassPCActive : linkClassPC}
@@ -86,10 +80,12 @@ export default function Navbar({ pageName }) {
           >
             Venue & Program
           </Link>
-
           <a
             className={pageName == 'more' ? linkClassPCActive : linkClassPC}
-            onClick={() => setDrop(!drop)}
+            onClick={(e) => {
+              const drop = document.getElementById('drop')
+              drop.classList.toggle('active')
+            }}
             style={{ display: 'flex', alignItems: 'center' }}
           >
             More
@@ -108,73 +104,88 @@ export default function Navbar({ pageName }) {
               <polyline points='6 9 12 15 18 9'></polyline>
             </svg>
           </a>
-
           {/* The drop down */}
-          {/*drop && (
-            <div className='absolute top-[3.25rem] right-0 rounded-2xl bg-zinc-700 p-3'>
-              <Link href='/brochure'>
-                <a className={linkClassPC} title='Brochure - IEEE CATCON 2022'>
-                  Brochure
-                </a>
-              </Link>
+          <div
+            className='absolute top-16 right-4 bg-zinc-900 p-6 hidden flex-col gap-6 items-start'
+            id='drop'
+          >
+            <Link
+              href='/brochure'
+              className={linkClassPC}
+              title='Brochure - IEEE CATCON 2022'
+            >
+              Brochure
+            </Link>
 
-              <Link href='/transportationClimate'>
-                <a
-                  className={linkClassPC}
-                  title='About Durgapur-Transportation & Climate - IEEE CATCON 2022'
-                >
-                  About Durgapur-Transportation & Climate
-                </a>
-              </Link>
+            <Link
+              href='/transportationClimate'
+              className={
+                pageName == 'transportation' ? linkClassPCActive : linkClassPC
+              }
+              title='About Durgapur-Transportation & Climate - IEEE CATCON 2022'
+            >
+              About Durgapur-Transportation & Climate
+            </Link>
 
-              <Link href='/accomodation'>
-                <a
-                  className={linkClassPC}
-                  title='Accommodation & List of Hotels - IEEE CATCON 2022'
-                >
-                  Accommodation & List of Hotels
-                </a>
-              </Link>
+            <Link
+              href='/accomodation'
+              className={
+                pageName == 'accomodation' ? linkClassPCActive : linkClassPC
+              }
+              title='Accommodation & List of Hotels - IEEE CATCON 2022'
+            >
+              Accommodation & List of Hotels
+            </Link>
 
-              <Link href='/template'>
-                <a className={linkClassPC} title='Template - IEEE CATCON 2022'>
-                  IEEE Conference-Template
-                </a>
-              </Link>
+            <Link
+              href='/template'
+              className={
+                pageName == 'program' ? linkClassPCActive : linkClassPC
+              }
+              title='Template - IEEE CATCON 2022'
+            >
+              IEEE Conference-Template
+            </Link>
 
-              <Link href='/sponsorship'>
-                <a
-                  className={linkClassPC}
-                  title='Sponsorship - IEEE CATCON 2022'
-                >
-                  Sponsorship
-                </a>
-              </Link>
+            <Link
+              href='/sponsorship'
+              className={
+                pageName == 'program' ? linkClassPCActive : linkClassPC
+              }
+              title='Sponsorship - IEEE CATCON 2022'
+            >
+              Sponsorship
+            </Link>
 
-              <Link href='/programSchedule'>
-                <a
-                  className={linkClassPC}
-                  title='Program Schedule - IEEE CATCON 2022'
-                >
-                  Program Schedule
-                </a>
-              </Link>
+            <Link
+              href='/programSchedule'
+              className={
+                pageName == 'program' ? linkClassPCActive : linkClassPC
+              }
+              title='Program Schedule - IEEE CATCON 2022'
+            >
+              Program Schedule
+            </Link>
 
-              <Link href='/contact'>
-                <a className={linkClassPC} title='Contact - IEEE CATCON 2022'>
-                  Contact
-                </a>
-              </Link>
-              <Link href='/bankDetails'>
-                <a
-                  className={linkClassPC}
-                  title='Bank Details - IEEE CATCON 2022'
-                >
-                  Bank Details
-                </a>
-              </Link>
-            </div>
-          )*/}
+            <Link
+              href='/contact'
+              className={
+                pageName == 'program' ? linkClassPCActive : linkClassPC
+              }
+              title='Contact - IEEE CATCON 2022'
+            >
+              Contact
+            </Link>
+            <Link
+              href='/bankDetails'
+              className={
+                pageName == 'program' ? linkClassPCActive : linkClassPC
+              }
+              title='Bank Details - IEEE CATCON 2022'
+            >
+              Bank Details
+            </Link>
+          </div>
         </div>
       </nav>
       {clicked && <SideBar clicked setClicked={setClicked} pageName />}

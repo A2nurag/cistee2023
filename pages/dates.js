@@ -18,7 +18,7 @@ export default function Dates() {
 
         <section className='bg-[#59C3C3] py-20 w-full text-slate-800 min-h-max'>
           <div className='container mx-auto max-w-5xl text-justify'>
-            <h2 className='text-5xl font-extrabold mb-6'>DATES</h2>
+            <h1 className='text-5xl font-extrabold mb-6'>DATES</h1>
             <ul className='flex list-inside list-disc flex-col gap-4 font-md'>
               <li>
                 Full paper submission portal opens:{' '}

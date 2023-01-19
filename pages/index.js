@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+import { Inter } from '@next/font/google'
 
 const inter = Inter({ weight: 'variable', subsets: ['latin'] })
 
@@ -188,7 +187,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <Footer />
       </main>
     </>
   )
