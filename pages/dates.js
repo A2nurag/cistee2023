@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import Navbar from '../components/navbar'
+import Head from "next/head";
+import { Inter } from "@next/font/google";
+import Navbar from "../components/navbar";
 
-const inter = Inter({ weight: 'variable', subsets: ['latin'] })
+const inter = Inter({ weight: "variable", subsets: ["latin"] });
 
 export default function Dates() {
   return (
@@ -10,29 +10,44 @@ export default function Dates() {
       <Head>
         <Head>
           <title>IEEE CATCON 2022</title>
-          <link rel='icon' href='/favicon.ico' />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
       </Head>
       <main className={inter.className}>
-        <Navbar pageName='dates' />
+        <Navbar pageName="dates" />
 
-        <section className='bg-[#59C3C3] py-20 w-full text-slate-800 min-h-max'>
-          <div className='container mx-auto max-w-5xl text-justify'>
-            <h1 className='text-5xl font-extrabold mb-6'>DATES</h1>
-            <ul className='flex list-inside list-disc flex-col gap-4 font-md'>
-              <li>
-                Full paper submission portal opens:{' '}
-                {/* <span className='font-bold text-red-500'>9th June 2022</span> */}
+        <section className="bg-teal-300 py-20 w-full text-slate-800 min-h-max px-2">
+          <div className="container mx-auto max-w-5xl text-justify">
+            <h1 className="text-5xl font-extrabold mb-6">DATES</h1>
+            <ul className="flex list-inside list-none flex-col gap-4 font-md">
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Full paper submission portal opens
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
               </li>
-              <li>Full paper Submission portal closes: </li>
-              <li>Notification of Acceptance of the manuscript: </li>
-              <li>Final Camera-ready paper submission: </li>
-              <li>Deadline for Registration: </li>
-              <li>Conference Dates: </li>
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Full paper Submission portal closes
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
+              </li>
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Notification of Acceptance of the manuscript
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
+              </li>
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Final Camera-ready paper submission
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
+              </li>
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Deadline for Registration
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
+              </li>
+              <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
+                Conference Dates
+                {/*<span className="text-lg font-black">9th March 2023</span>*/}
+              </li>
             </ul>
           </div>
         </section>
       </main>
     </>
-  )
+  );
 }

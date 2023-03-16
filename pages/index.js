@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Navbar from '../components/navbar'
-import { Inter } from '@next/font/google'
+import Head from "next/head";
+import Navbar from "../components/navbar";
+import { Inter } from "@next/font/google";
 
-const inter = Inter({ weight: 'variable', subsets: ['latin'] })
+const inter = Inter({ weight: "variable", subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -10,41 +10,42 @@ export default function Home() {
       <Head>
         <Head>
           <title>IEEE CATCON 2022</title>
-          <link rel='icon' href='/favicon.ico' />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
       </Head>
       <main className={inter.className}>
         <header className='w-screen h-screen bg-[url("../public/image.jpg")] bg-cover bg-center flex flex-col justify-between'>
-          <Navbar pageName='home' />
+          <Navbar pageName="home" />
           <div
             style={{
               background:
-                'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)',
+                "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
             }}
-            className='flex items-center justify-between w-full max-w-[1800px] mx-auto pb-10'
           >
-            <div>
-              <h1 className='text-9xl text-white text-opacity-80 font-[900]'>
-                CISTEE 2023
-              </h1>
-              <p className='text-xl text-white text-opacity-60 font-bold uppercase'>
-                Computational Intelligence and Smart Technologies in Electrical
-                Engineering
-              </p>
+            <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1800px] mx-auto pb-10 text-center gap-2 px-2">
+              <div>
+                <h1 className="text-5xl lg:text-9xl text-center lg:text-left text-white text-opacity-80 font-[900]">
+                  CISTEE 2023
+                </h1>
+                <p className="text-sm lg:text-xl text-white text-opacity-60 font-bold lg:uppercase">
+                  Computational Intelligence and Smart Technologies in
+                  Electrical Engineering
+                </p>
+              </div>
+              <img
+                src="/nitd logo white.png"
+                className="max-h-20 lg:max-h-36 opacity-80"
+              />
             </div>
-            <img
-              src='/nitd logo white.png'
-              className='max-h-36 opacity-80'
-            ></img>
           </div>
         </header>
 
-        <section className='bg-[#59C3C3] py-20 w-full text-slate-800'>
-          <div className='container mx-auto max-w-5xl text-justify'>
-            <h3 className='text-5xl font-extrabold font-[Fira Sans] mb-6'>
+        <section className="bg-green-300 py-20 w-full text-slate-800 px-2">
+          <div className="container mx-auto max-w-5xl text-justify">
+            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
               ABOUT CISTEE
             </h3>
-            <p className='text-lg'>
+            <p className="lg:text-lg">
               2022 IEEE 6th International Conference on Condition Assessment
               Techniques in Electrical Systems (IEEE CATCON 2022) is organized
               by National Institute of Technology Durgapur, technically
@@ -54,7 +55,7 @@ export default function Home() {
               National Institute of Technology Durgapur.
             </p>
 
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               This conference is being organized for the sixth time, which is in
               line with the present day requirements in the global scenario of
               various condition assessment techniques for a variety of
@@ -72,12 +73,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='bg-[#D81E5B] py-20 w-full text-slate-200'>
-          <div className='container mx-auto max-w-5xl'>
-            <h3 className='text-5xl font-extrabold font-[Fira Sans] mb-6'>
+        <section className="bg-purple-800 py-20 w-full text-slate-200 px-2">
+          <div className="container mx-auto max-w-5xl">
+            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
               NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR
             </h3>
-            <p className='text-justify text-lg'>
+            <p className="text-justify lg:text-lg">
               National Institute of Technology Durgapur (NITD) is a leading
               technical institute offering undergraduate, postgraduate and
               doctoral programmes in various disciplines of engineering,
@@ -92,7 +93,7 @@ export default function Home() {
               declared an Institute of National Importance by the Government of
               India on August 15, 2007.
             </p>
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               The city of Durgapur is recognized as one of the fastest
               developing Tier–II cities in the national scenarios. Durgapur is
               situated at a distance of about 180 KMs from Kolkata. It is
@@ -100,7 +101,7 @@ export default function Home() {
               connecting Kolkata to Delhi and Durgapur can be reached from
               Kolkata (and vice versa) in ~ 2 hrs. 30 minutes.
             </p>
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               NIT Durgapur is the first institute in Eastern India to be
               selected as a Lead Institute under the Technical Education Quality
               Improvement Program (TEQIP) of the Govt. of India funded by the
@@ -108,7 +109,7 @@ export default function Home() {
               cap when the Union Government of India declared it as an
               “Institute of National Importance”.
             </p>
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               The college received a major recognition in 2003 when it was
               elevated to National Institute of Technology (N.I.T.) as a “deemed
               university” with a fully - funded premier technological
@@ -127,7 +128,7 @@ export default function Home() {
               active collaborations with universities and elite institutions
               within and outside India.
             </p>
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               The institute strongly encourages its students to carry out their
               internship in industries and academia all over the world for which
               they receive financial support from the institute. Financial
@@ -145,12 +146,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='bg-[#5DA9E9] py-20 w-full text-slate-800'>
-          <div className='container mx-auto max-w-5xl'>
-            <h3 className='text-5xl font-extrabold font-[Fira Sans] mb-6'>
+        <section className="bg-zinc-200 py-20 w-full text-slate-800 px-2">
+          <div className="container mx-auto max-w-5xl">
+            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
               DEPARTMENT OF ELECTRICAL ENGINEERING, NITD
             </h3>
-            <p className='text-justify text-lg'>
+            <p className="text-justify lg:text-lg">
               The Electrical Engineering department was established in the year
               of 1960. Presently the department offer B. Tech in Electrical
               Engineering, with intake capacity of 100 students, M. Tech in
@@ -164,7 +165,7 @@ export default function Home() {
               and consultancy work. The department also has strong regional and
               foreign collaboration.
             </p>
-            <p className='mt-3 text-lg'>
+            <p className="mt-3 lg:text-lg">
               The department has established a good track record in teaching and
               research among the regional institutes, through consistent effort
               of faculty & staff members, students and administration, and
@@ -189,5 +190,5 @@ export default function Home() {
         </section>
       </main>
     </>
-  )
+  );
 }
