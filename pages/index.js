@@ -8,10 +8,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <Head>
-          <title>IEEE CATCON 2022</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <title>CISTEE 2023</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={inter.className}>
         <header className='w-screen h-screen bg-[url("../public/image.jpg")] bg-cover bg-center flex flex-col justify-between'>
@@ -24,61 +22,79 @@ export default function Home() {
           >
             <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1800px] mx-auto pb-10 text-center gap-2 px-2">
               <div>
-                <h1 className="text-5xl lg:text-9xl text-center lg:text-left text-white text-opacity-80 font-[900]">
+                <h1 className="text-5xl lg:text-9xl text-center lg:text-left text-white font-[900]">
                   CISTEE 2023
                 </h1>
-                <p className="text-sm lg:text-xl text-white text-opacity-60 font-bold lg:uppercase">
+                <p className="text-sm lg:text-xl text-white text-opacity-80 lg:text-left">
                   Computational Intelligence and Smart Technologies in
                   Electrical Engineering
                 </p>
+                <marquee
+                  className="text-sm lg:text-xl text-white text-opacity-80 font-bold mb-1 mt-2"
+                  scrolldelay="1"
+                >
+                  All CISTEE 2023 presented papers will be published in
+                  conference proceedings by Springer LNNS Series
+                </marquee>
               </div>
               <img
                 src="/nitd logo white.png"
-                className="max-h-20 lg:max-h-36 opacity-80"
+                className="max-h-20 lg:max-h-36 opacity-80 hidden lg:block"
               />
             </div>
           </div>
         </header>
 
         <section className="bg-green-300 py-20 w-full text-slate-800 px-2">
-          <div className="container mx-auto max-w-5xl text-justify">
-            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
+          <div className="container mx-auto max-w-8xl text-justify">
+            <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               ABOUT CISTEE
             </h3>
-            <p className="lg:text-lg">
-              2022 IEEE 6th International Conference on Condition Assessment
-              Techniques in Electrical Systems (IEEE CATCON 2022) is organized
-              by National Institute of Technology Durgapur, technically
-              co-sponsored by IEEE Dielectrics and Electrical Insulation Society
-              (DEIS) Kolkata Chapter, and financially co-sponsored by IEEE
-              Kolkata Section. It will be held during December 17-19, 2022 at
-              National Institute of Technology Durgapur.
+            <p>
+              International Conference on “Computational Intelligence and Smart
+              Technologies in Electrical Engineering (CISTEE 2023) is being
+              organized by Department of Electrical Engineering, National
+              Institute of Technology Durgapur, in collaboration with MANIT
+              Bhopal during December 16-17, 2023.
             </p>
 
-            <p className="mt-3 lg:text-lg">
-              This conference is being organized for the sixth time, which is in
-              line with the present day requirements in the global scenario of
-              various condition assessment techniques for a variety of
-              electrical systems. Its goal is to provide a broad coverage and
-              dissemination of fundamental research in condition monitoring and
-              assessment among researchers, academics, industry and
-              practitioners. Around 200 delegates are expected to attend and
-              will be one of the biggest gatherings in this field of research.
-              The technical program of IEEE CATCON 2022 will consist of
-              tutorials, invited talks, posters and oral presentations. Research
-              papers describing original work on theories, methodologies,
-              abstractions, algorithms, industry applications and case studies
-              are invited.
+            <p className="mt-3">
+              In the context of present COVID situation, the conference will be
+              organized in Online mode. The objective of the conference is to
+              offer a platform for electrical engineers and researchers to
+              present their research work and to share experiences and ideas in
+              the area of power energy and control related engineering
+              applications incorporating smart technologies and intelligence
+              techniques. The conference program will be having plenary sessions
+              and technical paper presentations. Distinguished speakers will be
+              invited to deliver keynote speeches on emerging and smart
+              technologies in power, energy and control techniques in electrical
+              engineering. The applications and impact of Electrical Power,
+              Smart and Advanced Technology, Control Techniques and
+              Computational Intelligence has changed worldwide in electrical
+              engineering during last few decades. Therefore, CISTEE-2023 aims
+              to provide a platform for bringing together teachers, researchers,
+              professionals, managers and policy makers to develop and discuss
+              the recent advancement in the field of Electrical Power, Modern
+              Technology, Control, and Intelligence. This also intended to
+              discuss recent advances in various use of associated fields of
+              optimization, modelling, simulation, expert systems, artificial
+              intelligence etc. Focus areas of the conference are Smart Grid
+              Technology, Renewable Energy Sources, Distributed Generation and
+              Grid Interconnection, Electric Vehicles, Energy Storage &amp;
+              Battery Charging techniques, FACTS devices, High Voltage, Power
+              Quality, Power System and its application to power and energy,
+              artificial intelligence and other computational techniques, etc.
             </p>
           </div>
         </section>
 
         <section className="bg-purple-800 py-20 w-full text-slate-200 px-2">
-          <div className="container mx-auto max-w-5xl">
-            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
+          <div className="container mx-auto max-w-8xl text-justify">
+            <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR
             </h3>
-            <p className="text-justify lg:text-lg">
+            <p>
               National Institute of Technology Durgapur (NITD) is a leading
               technical institute offering undergraduate, postgraduate and
               doctoral programmes in various disciplines of engineering,
@@ -93,7 +109,7 @@ export default function Home() {
               declared an Institute of National Importance by the Government of
               India on August 15, 2007.
             </p>
-            <p className="mt-3 lg:text-lg">
+            <p className="mt-3">
               The city of Durgapur is recognized as one of the fastest
               developing Tier–II cities in the national scenarios. Durgapur is
               situated at a distance of about 180 KMs from Kolkata. It is
@@ -101,7 +117,7 @@ export default function Home() {
               connecting Kolkata to Delhi and Durgapur can be reached from
               Kolkata (and vice versa) in ~ 2 hrs. 30 minutes.
             </p>
-            <p className="mt-3 lg:text-lg">
+            <p className="mt-3">
               NIT Durgapur is the first institute in Eastern India to be
               selected as a Lead Institute under the Technical Education Quality
               Improvement Program (TEQIP) of the Govt. of India funded by the
@@ -109,7 +125,7 @@ export default function Home() {
               cap when the Union Government of India declared it as an
               “Institute of National Importance”.
             </p>
-            <p className="mt-3 lg:text-lg">
+            <p className="mt-3">
               The college received a major recognition in 2003 when it was
               elevated to National Institute of Technology (N.I.T.) as a “deemed
               university” with a fully - funded premier technological
@@ -128,7 +144,7 @@ export default function Home() {
               active collaborations with universities and elite institutions
               within and outside India.
             </p>
-            <p className="mt-3 lg:text-lg">
+            <p className="mt-3">
               The institute strongly encourages its students to carry out their
               internship in industries and academia all over the world for which
               they receive financial support from the institute. Financial
@@ -147,11 +163,11 @@ export default function Home() {
         </section>
 
         <section className="bg-zinc-200 py-20 w-full text-slate-800 px-2">
-          <div className="container mx-auto max-w-5xl">
-            <h3 className="text-3xl lg:text-5xl font-extrabold font-[Fira Sans] mb-6">
+          <div className="container mx-auto max-w-8xl text-justify">
+            <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               DEPARTMENT OF ELECTRICAL ENGINEERING, NITD
             </h3>
-            <p className="text-justify lg:text-lg">
+            <p className="text-justify">
               The Electrical Engineering department was established in the year
               of 1960. Presently the department offer B. Tech in Electrical
               Engineering, with intake capacity of 100 students, M. Tech in
@@ -165,7 +181,7 @@ export default function Home() {
               and consultancy work. The department also has strong regional and
               foreign collaboration.
             </p>
-            <p className="mt-3 lg:text-lg">
+            <p className="mt-3">
               The department has established a good track record in teaching and
               research among the regional institutes, through consistent effort
               of faculty & staff members, students and administration, and

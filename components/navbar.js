@@ -7,9 +7,9 @@ export default function Navbar({ pageName }) {
   const [clicked, setClicked] = useState(false);
   const [drop, setDrop] = useState(false);
   const linkClassPC =
-    "text-slate-200 font-medium hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
+    "text-slate-200 font-bold hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
   const linkClassPCActive =
-    "text-slate-200 font-medium hidden md:flex border-b-slate-200 border-b-2";
+    "text-slate-200 font-bold hidden md:flex border-b-slate-200 border-b-2";
   const bg =
     pageName === "home"
       ? "linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.72) 37.5%, rgba(0, 0, 0, 0) 100%)"
@@ -30,82 +30,82 @@ export default function Navbar({ pageName }) {
           >
             Home
           </Link>
-          {/* <Link
-              href="/dates"
-              className={pageName === "dates" ? linkClassPCActive : linkClassPC}
-              title="Dates - IEEE CATCON 2022"
+          <Link
+            href="/dates"
+            className={pageName === "dates" ? linkClassPCActive : linkClassPC}
+            title="Dates - IEEE CATCON 2022"
           >
             Dates
           </Link>
-            <Link
+          <Link
             href="/registration"
             className={
-            pageName === "registration" ? linkClassPCActive : linkClassPC
-          }
+              pageName === "registration" ? linkClassPCActive : linkClassPC
+            }
             title="Registration - IEEE CATCON 2022"
-            >
+          >
             Registration
-            </Link>
-            <Link
+          </Link>
+          <Link
             href="/callForPapers"
             className={
-            pageName === "call for papers" ? linkClassPCActive : linkClassPC
-          }
+              pageName === "call for papers" ? linkClassPCActive : linkClassPC
+            }
             title="Call For Papers - IEEE CATCON 2022"
-            >
+          >
             Call for Papers
-            </Link>
-            <Link
+          </Link>
+          <Link
             href="/paperSubmission"
             className={
-            pageName === "paper submission" ? linkClassPCActive : linkClassPC
-          }
+              pageName === "paper submission" ? linkClassPCActive : linkClassPC
+            }
             title="Paper Submission - IEEE CATCON 2022"
-            >
+          >
             Paper Submission
-            </Link>
-            <Link
+          </Link>
+          <Link
             href="/committee"
             className={
-            pageName === "committee" ? linkClassPCActive : linkClassPC
-          }
+              pageName === "committee" ? linkClassPCActive : linkClassPC
+            }
             title="Committee - IEEE CATCON 2022"
-            >
+          >
             Committee
-            </Link>
-            <Link
+          </Link>
+          <Link
             href="/program"
             className={pageName === "program" ? linkClassPCActive : linkClassPC}
             title="Program - IEEE CATCON 2022"
-            >
+          >
             Venue & Program
-            </Link> */}
-          {/*
-            <a
-              className={pageName === "more" ? linkClassPCActive : linkClassPC}
-              onClick={(e) => {
-                const drop = document.getElementById("drop");
-                drop.classList.toggle("active");
-              }}
-              style={{ display: "flex", alignItems: "center" }}
-            >
-              More
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="feather feather-chevron-down"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </a>
-          */}
+          </Link>
+
+          {/*<a*/}
+          {/*  className={pageName === "more" ? linkClassPCActive : linkClassPC}*/}
+          {/*  onClick={(e) => {*/}
+          {/*    const drop = document.getElementById("drop");*/}
+          {/*    drop.classList.toggle("active");*/}
+          {/*  }}*/}
+          {/*  style={{ display: "flex", alignItems: "center" }}*/}
+          {/*>*/}
+          {/*  More*/}
+          {/*  <svg*/}
+          {/*    xmlns="http://www.w3.org/2000/svg"*/}
+          {/*    width="20"*/}
+          {/*    height="20"*/}
+          {/*    viewBox="0 0 24 24"*/}
+          {/*    fill="none"*/}
+          {/*    stroke="currentColor"*/}
+          {/*    strokeWidth="2"*/}
+          {/*    strokeLinecap="round"*/}
+          {/*    strokeLinejoin="round"*/}
+          {/*    className="feather feather-chevron-down"*/}
+          {/*  >*/}
+          {/*    <polyline points="6 9 12 15 18 9"></polyline>*/}
+          {/*  </svg>*/}
+          {/*</a>*/}
+
           <div
             className="absolute top-16 right-4 bg-zinc-900 p-6 hidden flex-col gap-6 items-start"
             id="drop"
@@ -145,7 +145,7 @@ export default function Navbar({ pageName }) {
               }
               title="Template - IEEE CATCON 2022"
             >
-              IEEE Conference-Template
+              CISTEE 2023 Conference Template
             </Link>
 
             <Link

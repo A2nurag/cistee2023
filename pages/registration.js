@@ -8,16 +8,13 @@ export default function Registration() {
   return (
     <>
       <Head>
-        <Head>
-          <title>IEEE CATCON 2022</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <title>Registration | CISTEE 2023</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={inter.className}>
         <Navbar pageName="registration" />
-
-        <section className="bg-blue-200 py-20 w-full text-slate-800 min-h-max">
-          <div className="container mx-auto max-w-5xl text-justify">
+        <section className="pt-20 w-full text-slate-800 min-h-max font-medium px-2">
+          <div className="container mx-auto max-w-8xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase">
               Registration
             </h1>
@@ -33,17 +30,26 @@ export default function Registration() {
                 USB, participation in all the sessions of the conference, lunch
                 and inter-session refreshments and gala dinner is as follows.
                 IEEE members will get discount of Rs. 1000 for Indian delegates
-                and 20 USD for Foreign delegates in all cases.
+                and 20 USD for Foreign delegates in all cases
               </p>
 
-              {/* <img
-              src='/registration table.png'
-              className='my-2 w-full md:ml-6 '
-            /> */}
+              <img
+                src="/reg%20fee.png"
+                className="my-4 w-full"
+                alt="Registration fees"
+              />
               <p className="my-2 md:ml-6">
                 Please note that the fees shown above are inclusive of all taxes
                 and levies. Any gateway charges along with applicable taxes or
                 levies, if any, will have to be borne by the registrant.
+              </p>
+              <p className="my-2 md:ml-6">
+                The page limit for each accepted paper is 5 pages. If needed, up
+                to TWO (02) additional pages can be added (apart from basic 5
+                pages) by paying an extra charge (Indian Delegates: INR 1180 /
+                Foreign Delegates: $ 15) per additional page at the time of
+                author registration payment to make the final version of the
+                paper.
               </p>
             </div>
             {/* Steps for Registration: */}
@@ -69,12 +75,14 @@ export default function Registration() {
               <p className="my-2 md:ml-6">
                 <span className="font-semibold">Step 2:</span> <br />
                 Mention &#39;
-                <span className="font-semibold text-orange-600">CATCON 22</span>
+                <span className="font-semibold text-orange-600">
+                  CISTEE 2023
+                </span>
                 &#39; followed by the paper ID in &#39;
                 <span className="font-semibold text-orange-600">
                   Purpose/ Remarks
                 </span>
-                &#39; during NEFT. &lt;&#39;CATCON 22&gt; space &lt;Mention your
+                &#39; during NEFT. &lt;&#39;CISTEE 23&gt; space &lt;Mention your
                 Paper ID…&gt;.
               </p>
               <p className="my-2 md:ml-6">
@@ -84,17 +92,17 @@ export default function Registration() {
                 Paper ID &lt;Your Paper ID&gt;.”
                 <br />
                 <a
-                  href="mailto:registration@catcon2022.com"
+                  href="mailto:cistee2023@gmail.com"
                   className="font-semibold text-blue-800 hover:underline"
                 >
-                  registration@catcon2022.com
+                  cistee2023@gmail.com
                 </a>
               </p>
               <p className="my-2 md:ml-6">
                 <span className="font-semibold">Step 4:</span> <br />
                 Then fill up the{" "}
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScdKleVBqO4b-Rr6CUYxCstQXd4ITSX_KhzDqDaZH4740Y7Og/viewform"
+                  href="https://docs.google.com/forms/d/1NZdKKS-VzqsIwP9kyJrXMCPAzYZf4y6HlXdlQ_OfTeM"
                   className="font-semibold text-blue-800 hover:underline"
                 >
                   Registration Form
@@ -104,7 +112,7 @@ export default function Registration() {
             {/*  Bank Details of IEEE CATCON 2022 */}
             <div className="my-6">
               <h2 className="my-2 text-2xl font-bold text-slate-700">
-                Bank Details of IEEE CATCON 2022
+                Bank Details of CISTEE 2023
               </h2>
 
               <table className="table-fixed border md:ml-6">
@@ -114,16 +122,14 @@ export default function Registration() {
                       Name of Account
                     </td>
                     <td className="border-2 border-zinc-700 p-2 pr-16 bg-blue-100">
-                      IEEE CATCON 2022
+                      CISTEE 2023
                     </td>
                   </tr>
                   <tr>
                     <td className="border-2 border-zinc-700 p-2 font-bold">
                       Account Number
                     </td>
-                    <td className="border-2 border-zinc-700 p-2">
-                      110066836238
-                    </td>
+                    <td className="border-2 border-zinc-700 p-2"></td>
                   </tr>
                   <tr>
                     <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
@@ -178,8 +184,8 @@ export default function Registration() {
             </div>
           </div>
         </section>
-        <section className="bg-[#55D6BE] py-20 w-full text-slate-800 min-h-max">
-          <div className="container mx-auto max-w-5xl text-justify">
+        <section className="py-5 w-full text-slate-800 min-h-max px-2">
+          <div className="container mx-auto max-w-8xl text-justify">
             <h2 className="text-5xl font-extrabold mb-6 uppercase">
               REGISTRATION POLICIES
             </h2>
@@ -215,8 +221,7 @@ export default function Registration() {
                 2. At least one of the authors of every accepted paper must
                 register for the conference as author and present the paper in
                 order for it to be included in the conference proceedings of
-                IEEE CATCON 2022, and subsequent submission to IEEE Xplore®
-                digital library.
+                CISTEE 2023.
               </p>
 
               <p className="mt-2 md:ml-6">
@@ -263,37 +268,38 @@ export default function Registration() {
               </h3>
 
               <p className="mt-2 md:ml-6">
-                1. All participants need to be registered to attend the IEEE
-                CATCON 2022 by paying the requisite registration fees.
+                1. All participants need to be registered to attend the CISTEE
+                2023 by paying the requisite registration fees.
               </p>
+
               <p className="mt-2 md:ml-6">
-                2. IEEE members are requested to upload IEEE membership details
-                during the online registration process, if registering under
-                IEEE category.
-              </p>
-              <p className="mt-2 md:ml-6">
-                3. Students are requested to upload valid student ID card (front
+                2. Students are requested to upload valid student ID card (front
                 and back side) during the online registration process, if
                 registering under that student category.
               </p>
               <p className="mt-2 md:ml-6">
-                4. Please keep a copy/receipt of the transaction ID, generated
+                3. Please keep a copy/receipt of the transaction ID, generated
                 by the payment gateway as well as by your bank. You may need
                 these later if you need to track your payment/registration.
               </p>
               <p className="mt-2 md:ml-6">
-                5. All correspondence regarding registration for IEEE CATCON
-                2022 should contain Paper ID as well as registration
-                confirmation number.
+                4. All correspondence regarding registration for CISTEE 2023
+                should contain Paper ID as well as registration confirmation
+                number.
               </p>
               <p className="mt-2 md:ml-6">
-                6. The Organizer of IEEE CATCON 2022, or the Organizing
-                Institute (NIT Durgapur), will not be responsible for any loss,
-                financial or otherwise, caused by improper transactions
-                conducted online. While organizers have taken all reasonable
-                precautions to ensure a safe online transaction, it is the
-                registrant’s responsibility, while paying the registration fee,
-                to secure their user IDs, passwords, Paper ID, etc.
+                5. The Organizer of CISTEE 2023, or the Organizing Institute
+                (NIT Durgapur), will not be responsible for any loss, financial
+                or otherwise, caused by improper transactions conducted online.
+                While organizers have taken all reasonable precautions to ensure
+                a safe online transaction, it is the registrant’s
+                responsibility, while paying the registration fee, to secure
+                their user IDs, passwords, Paper ID, etc.
+              </p>
+              <p className="mt-2 md:ml-6">
+                6.All the participants are requested to pay the exact
+                registration fee as mentioned in the webpage of the CISTEE 2023
+                under REGISTRATION.
               </p>
             </div>
             <div className="my-6">

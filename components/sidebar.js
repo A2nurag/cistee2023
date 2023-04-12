@@ -31,7 +31,7 @@ export default function SideBar({ setClicked }) {
         <Link href="/" className={linkClassPC} title="Home">
           Home
         </Link>
-        {/* <Link href="/dates" className={linkClassPC} title="Dates">
+        <Link href="/dates" className={linkClassPC} title="Dates">
           Dates
         </Link>
         <Link href="/registration" className={linkClassPC} title="Registration">
@@ -56,7 +56,7 @@ export default function SideBar({ setClicked }) {
         </Link>
         <Link href="/program" className={linkClassPC} title="Program">
           Venue & Program
-        </Link> */}
+        </Link>{" "}
       </div>
     </div>
   );
