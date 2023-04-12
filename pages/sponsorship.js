@@ -25,6 +25,7 @@ export default function sponsorship() {
               className="my-3 inline-block cursor-pointer rounded-lg bg-indigo-500 py-3 px-8 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500  focus:ring-offset-2 focus:ring-offset-indigo-200 disabled:bg-slate-400"
               href="/Sponsorship logo and documents.pdf"
               target="_blank"
+              rel="noreferrer"
             >
               List of Sponsors
             </a>
@@ -66,6 +67,7 @@ export default function sponsorship() {
                 href="http://www.catcon2022.com"
                 target="_blank"
                 className="font-medium text-zinc-800 hover:underline"
+                rel="noreferrer"
               >
                 https://www.catcon2022.com
               </a>
@@ -73,6 +75,7 @@ export default function sponsorship() {
               <a
                 href="mailto:registration@catcon2022.com"
                 target="_blank"
+                rel="noreferrer"
                 className="font-medium text-zinc-800 hover:underline"
               >
                 registration@catcon2022.com
@@ -237,6 +240,7 @@ export default function sponsorship() {
               className="my-8 inline-block cursor-pointer rounded-lg bg-indigo-500 py-3 px-6 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500  focus:ring-offset-2 focus:ring-offset-indigo-200 disabled:bg-slate-400"
               href="/Sponsorship Form CATCON 2022.pdf"
               target="_blank"
+              rel="noreferrer"
             >
               Sponsorship Form
             </a>
