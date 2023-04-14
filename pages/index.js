@@ -34,7 +34,7 @@ export default function Home() {
                   scrolldelay="1"
                 >
                   All CISTEE 2023 presented papers will be published in
-                  conference proceedings by Springer LNNS Series
+                  conference proceedings by Springer LNEE Series
                 </marquee>
               </div>
               <img
@@ -54,8 +54,10 @@ export default function Home() {
               International Conference on “Computational Intelligence and Smart
               Technologies in Electrical Engineering (CISTEE 2023) is being
               organized by Department of Electrical Engineering, National
-              Institute of Technology Durgapur, in collaboration with MANIT
-              Bhopal during December 16-17, 2023.
+              Institute of Technology Durgapur{" "}
+              {/*in collaboration with MANIT
+              Bhopal*/}{" "}
+              during December 16-17, 2023.
             </p>
 
             <p className="mt-3">

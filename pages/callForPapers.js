@@ -19,6 +19,44 @@ export default function callForPapers() {
             <h1 className="text-5xl font-extrabold mb-6 uppercase text-slate-900 text-left">
               Call For Papers
             </h1>
+            <p className="text-md my-3 font-medium text-orange-700">
+              It is planned to publish the peer reviewed and selected papers of
+              conference as proceedings with Springer in their prestigious
+              <span className="font-bold">
+                “Lecture Notes in Electrical Engineering (LNEE)”
+              </span>{" "}
+              series (
+              <a
+                className="text-blue-800 underline"
+                href="https://www.springer.com/series/7818"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.springer.com/series/7818
+              </a>
+              ).
+            </p>
+            <p className="text-md my-3 font-medium text-orange-700">
+              For detailed instructions for author and editors of conference
+              proceedings, kindly visit the following link:{" "}
+              <a
+                className="text-blue-800 underline"
+                href="https://www.springer.com/us/authors-editors/conference-proceedings"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.springer.com/us/authors-editors/conference-proceedings.
+              </a>
+              Select papers from the conference will be published by Springer as
+              a proceedings book volume.
+            </p>
+            <p className="text-md my-3 font-medium text-orange-700">
+              Springer will conduct quality checks on the accepted papers and
+              only papers that pass these checks will be published. Springer
+              Nature does not charge any money for publication of Non-Open
+              Access content. Abstracts/extended abstracts and short papers
+              (less than 4 pages) are not considered for publication.’
+            </p>
             <p className="text-md my-3 font-medium text-zinc-700">
               The CISTEE-2023 invites all authors to submit research papers in
               the topics pertaining to the scope of the conference will include,
