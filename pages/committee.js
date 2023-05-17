@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 import { useState, useEffect } from "react";
 const inter = Inter({ weight: "variable", subsets: ["latin"] });
 
-export default function committee() {
+export default function Committee() {
 
   const [international, setInternational] = useState([]);
   const [national, setNational] = useState([]);
