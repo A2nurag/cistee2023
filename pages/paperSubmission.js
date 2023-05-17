@@ -22,7 +22,7 @@ export default function paperSubmission() {
             <p className="my-1">For Paper submission, Click here</p>
             <a
               type="button"
-              href="https://cmt3.research.microsoft.com/CATCON2022/Submission/Index"
+              href="https://cmt3.research.microsoft.com/CISTEE2023/Submission/Index"
               target="_blank"
               rel="noreferrer"
               className="my-3 inline-block rounded-lg bg-indigo-600 py-3 px-6 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500  focus:ring-offset-2 focus:ring-offset-indigo-200 disabled:bg-slate-400"
@@ -57,7 +57,7 @@ export default function paperSubmission() {
               </li>
               <li className="my-2 ml-6">
                 The full-length paper should not exceed{" "}
-                <span className="font-bold">Ten (10)</span> pages.
+                <span className="font-bold">Twelve (12)</span> pages.
               </li>
             </ul>
             <h4 className="my-2 mt-6 text-lg font-bold text-slate-900">
@@ -92,7 +92,7 @@ export default function paperSubmission() {
                 top or bottom) you have performed your corrections.
               </li>
               <li className="my-2 ml-6">
-                The maximum page limit is <b>Ten (10)</b> pages including
+                The maximum page limit is <b>Twelve (12)</b> pages including
                 references.
               </li>
               <li className="my-2 ml-6">

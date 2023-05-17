@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row items-center gap-2">
             <img src="/nitd.png" className="max-h-20 bg-blend-darken" />
 
-            {/*<img src="/manit bhopal.png" className="max-h-20" />*/}
+            <img src="/manit bhopal.png" className="max-h-20" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="280"

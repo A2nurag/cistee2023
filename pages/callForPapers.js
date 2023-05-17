@@ -102,7 +102,38 @@ export default function callForPapers() {
               </li>
               <li className="my-4">Any other relevant topics.</li>
             </ul>
+
+            <h2 className='my-4 text-2xl font-bold text-slate-800'>
+              Tracks of CISTEE2023
+            </h2>
+
+            <div className="py-2 px-4 border border-slate-700 rounded-md my-2">
+              <p className="text-slate-800 my-2 font-bold text-md">Track-1: Application of AI and Smart Technologies in POWER & ENERGY SYSTEMS, SMART GRIDS, AC-DC MICROGRIDS</p>
+              <li className="list-inside pl-6">AI application for Modelling, Control and Optimization of Electrical Power Systems, Automation, Protection and Restructuring, Machine Learning in Power and Energy applications and optimization and control of Power & Energy Systems, and Recent Trends and application in AC/DC Micro Grids, Smart Grids etc.</li>
+            </div>
+
+            <div className="py-2 px-4 border border-slate-700 rounded-md my-2">
+              <p className="text-slate-800 my-2 font-bold text-md">Track-2: Application of AI and Smart Technologies in POWER ELECTRONIC CONVERTERS, DRIVES AND ELECTRICAL MACHINES</p>
+              <li className="list-inside pl-6">Application of modern Techniques in Power Electronics Converters, Electrical Drives, Machines and Energy management, and Energy Storage Technology etc.</li>
+            </div>
+
+            <div className="py-2 px-4 border border-slate-700 rounded-md my-2">
+              <p className="text-slate-800 my-2 font-bold text-md">Track-3: Application of AI and Smart Technologies in RENEWABLE ENERGY AND ENERGY STORAGE SYSTEMS</p>
+              <li className="list-inside pl-6">Applications of smart technologies in Renewable Energy Systems (Solar, wind, Biomass, Hydrogen and other renewable sources), Energy Storage Systems, Electric Vehicles, etc.</li>
+            </div>
+
+            <div className="py-2 px-4 border border-slate-700 rounded-md my-2">
+              <p className="text-slate-800 my-2 font-bold text-md">Track-4: Application of AI and Smart Technologies in HIGH VOLTAGE AND CONDITION MONITORING</p>
+              <li className="list-inside pl-6">Applications of AI and Smart Technologies in High Voltage, Partial Discharge, Insulation and Condition Monitoring.</li>
+            </div>
+
+            <div className="py-2 px-4 border border-slate-700 rounded-md my-2">
+              <p className="text-slate-800 my-2 font-bold text-md">Track-5: Application of AI and Smart Technologies in BIOMEDICAL, INSTRUMENTATION
+                AND CONTROL</p>
+              <li className="list-inside pl-6">Applications of AI and Smart Technologies in Biomedical Engineering, Sensors, Instrumentation and Control, etc.</li>
+            </div>
           </div>
+
         </section>
       </main>
     </>

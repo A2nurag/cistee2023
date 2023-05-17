@@ -51,13 +51,11 @@ export default function Home() {
               ABOUT CISTEE
             </h3>
             <p>
-              International Conference on “Computational Intelligence and Smart
-              Technologies in Electrical Engineering (CISTEE 2023) is being
-              organized by Department of Electrical Engineering, National
-              Institute of Technology Durgapur{" "}
-              {/*in collaboration with MANIT
-              Bhopal*/}{" "}
-              during December 16-17, 2023.
+              International Conference on “Computational Intelligence and Smart Technologies in
+              Electrical Engineering (CISTEE 2023) is being organized by Department of Electrical
+              Engineering, National Institute of Technology Durgapur, during December 16-17, 2023,
+              in collaboration with and Maulana Azad National Institute of Technology (MANIT)
+              Bhopal, MP India.
             </p>
 
             <p className="mt-3">
@@ -83,7 +81,7 @@ export default function Home() {
               optimization, modelling, simulation, expert systems, artificial
               intelligence etc. Focus areas of the conference are Smart Grid
               Technology, Renewable Energy Sources, Distributed Generation and
-              Grid Interconnection, Electric Vehicles, Energy Storage &amp;
+              Grid Interconnection, Electric Vehicles, Energy Storage, 
               Battery Charging techniques, FACTS devices, High Voltage, Power
               Quality, Power System and its application to power and energy,
               artificial intelligence and other computational techniques, etc.
@@ -113,7 +111,7 @@ export default function Home() {
             </p>
             <p className="mt-3">
               The city of Durgapur is recognized as one of the fastest
-              developing Tier–II cities in the national scenarios. Durgapur is
+              developing Tier - II cities in the national scenarios. Durgapur is
               situated at a distance of about 180 KMs from Kolkata. It is
               located right on the major railway and expressway (NH-2)
               connecting Kolkata to Delhi and Durgapur can be reached from
@@ -133,7 +131,7 @@ export default function Home() {
               university” with a fully - funded premier technological
               institution administered by an autonomous Board of Governors under
               the Ministry of Human Resource Development, Government of India.
-              The transformation from ‘Regional’ to ‘National’ and from
+              The transformation from 'Regional' to 'National' and from
               “college” to “Institute” demanded dedicated efforts from its staff
               and faculty members. The Institute has Fourteen departments, and
               Four research centres. The institute offers eight UG programme,
