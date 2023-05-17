@@ -257,7 +257,7 @@ export default function Registration() {
               <p className="mt-2 md:ml-6">
                 5. The Organizer of CISTEE 20223, or the Organizing Institute (NIT Durgapur), will not be responsible for any loss, financial or otherwise,
                 caused by improper transactions conducted online. While organizers have taken all reasonable precautions to ensure a safe online
-                transaction, it is the registrant's responsibility, while paying the registration fee, to secure their user IDs, passwords, Paper ID, etc.
+                transaction, it is the registrant&apos;s responsibility, while paying the registration fee, to secure their user IDs, passwords, Paper ID, etc.
               </p>
 
             </div>

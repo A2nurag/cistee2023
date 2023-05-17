@@ -131,7 +131,7 @@ export default function Home() {
               university” with a fully - funded premier technological
               institution administered by an autonomous Board of Governors under
               the Ministry of Human Resource Development, Government of India.
-              The transformation from 'Regional' to 'National' and from
+              The transformation from &apos;Regional&apos; to &apos;National&apos; and from
               “college” to “Institute” demanded dedicated efforts from its staff
               and faculty members. The Institute has Fourteen departments, and
               Four research centres. The institute offers eight UG programme,
