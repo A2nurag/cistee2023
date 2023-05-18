@@ -57,6 +57,9 @@ export default function SideBar({ setClicked }) {
         <Link href="/program" className={linkClassPC} title="Program">
           Venue & Program
         </Link>
+        <Link href="/keynote" className={linkClassPC} title="Keynote">
+          Keynote Speakers
+        </Link>
       </div>
     </div>
   );

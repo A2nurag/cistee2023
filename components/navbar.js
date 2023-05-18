@@ -26,14 +26,14 @@ export default function Navbar({ pageName }) {
           <Link
             href="/"
             className={pageName === "home" ? linkClassPCActive : linkClassPC}
-            title="Home - IEEE CATCON 2022"
+            title="Home - CISTEE 2023"
           >
             Home
           </Link>
           <Link
             href="/dates"
             className={pageName === "dates" ? linkClassPCActive : linkClassPC}
-            title="Dates - IEEE CATCON 2022"
+            title="Dates - CISTEE 2023"
           >
             Dates
           </Link>
@@ -42,7 +42,7 @@ export default function Navbar({ pageName }) {
             className={
               pageName === "registration" ? linkClassPCActive : linkClassPC
             }
-            title="Registration - IEEE CATCON 2022"
+            title="Registration - CISTEE 2023"
           >
             Registration
           </Link>
@@ -51,7 +51,7 @@ export default function Navbar({ pageName }) {
             className={
               pageName === "call for papers" ? linkClassPCActive : linkClassPC
             }
-            title="Call For Papers - IEEE CATCON 2022"
+            title="Call For Papers - CISTEE 2023"
           >
             Call for Papers
           </Link>
@@ -60,7 +60,7 @@ export default function Navbar({ pageName }) {
             className={
               pageName === "paper submission" ? linkClassPCActive : linkClassPC
             }
-            title="Paper Submission - IEEE CATCON 2022"
+            title="Paper Submission - CISTEE 2023"
           >
             Paper Submission
           </Link>
@@ -69,16 +69,23 @@ export default function Navbar({ pageName }) {
             className={
               pageName === "committee" ? linkClassPCActive : linkClassPC
             }
-            title="Committee - IEEE CATCON 2022"
+            title="Committee - CISTEE 2023"
           >
             Committee
           </Link>
           <Link
             href="/program"
             className={pageName === "program" ? linkClassPCActive : linkClassPC}
-            title="Program - IEEE CATCON 2022"
+            title="Program - CISTEE 2023"
           >
             Venue & Program
+          </Link>
+          <Link
+            href="/keynote"
+            className={pageName === "keynote" ? linkClassPCActive : linkClassPC}
+            title="Keynote Speakers - CISTEE 2023"
+          >
+            Keynote Speakers
           </Link>
 
           {/*<a*/}
@@ -113,7 +120,7 @@ export default function Navbar({ pageName }) {
             <Link
               href="/brochure"
               className={linkClassPC}
-              title="Brochure - IEEE CATCON 2022"
+              title="Brochure - CISTEE 2023"
             >
               Brochure
             </Link>
@@ -123,7 +130,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "transportation" ? linkClassPCActive : linkClassPC
               }
-              title="About Durgapur-Transportation & Climate - IEEE CATCON 2022"
+              title="About Durgapur-Transportation & Climate - CISTEE 2023"
             >
               About Durgapur-Transportation & Climate
             </Link>
@@ -133,7 +140,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "accomodation" ? linkClassPCActive : linkClassPC
               }
-              title="Accommodation & List of Hotels - IEEE CATCON 2022"
+              title="Accommodation & List of Hotels - CISTEE 2023"
             >
               Accommodation & List of Hotels
             </Link>
@@ -143,7 +150,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "program" ? linkClassPCActive : linkClassPC
               }
-              title="Template - IEEE CATCON 2022"
+              title="Template - CISTEE 2023"
             >
               CISTEE 2023 Conference Template
             </Link>
@@ -153,7 +160,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "program" ? linkClassPCActive : linkClassPC
               }
-              title="Sponsorship - IEEE CATCON 2022"
+              title="Sponsorship - CISTEE 2023"
             >
               Sponsorship
             </Link>
@@ -163,7 +170,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "program" ? linkClassPCActive : linkClassPC
               }
-              title="Program Schedule - IEEE CATCON 2022"
+              title="Program Schedule - CISTEE 2023"
             >
               Program Schedule
             </Link>
@@ -173,7 +180,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "program" ? linkClassPCActive : linkClassPC
               }
-              title="Contact - IEEE CATCON 2022"
+              title="Contact - CISTEE 2023"
             >
               Contact
             </Link>
@@ -182,7 +189,7 @@ export default function Navbar({ pageName }) {
               className={
                 pageName === "program" ? linkClassPCActive : linkClassPC
               }
-              title="Bank Details - IEEE CATCON 2022"
+              title="Bank Details - CISTEE 2023"
             >
               Bank Details
             </Link>

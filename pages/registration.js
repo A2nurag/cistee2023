@@ -93,7 +93,6 @@ export default function Registration() {
                 </a>
               </p>
             </div>
-            {/*  Bank Details of IEEE CATCON 2022 */}
             <div className="my-6">
               <h2 className="my-2 text-2xl font-bold text-slate-700">
                 Bank Details of CISTEE 2023
