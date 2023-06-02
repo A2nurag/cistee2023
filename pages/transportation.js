@@ -4,20 +4,18 @@ import Navbar from '../components/navbar'
 
 const inter = Inter({ weight: 'variable', subsets: ['latin'] })
 
-export default function transportationClimate() {
+export default function transportation() {
   return (
     <>
-      <Head>
         <Head>
-          <title>IEEE CATCON 2022</title>
+          <title>CISTEE 2023</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
-      </Head>
       <main className={inter.className}>
-        <Navbar pageName='transportationClimate' />
+        <Navbar pageName='transportation' />
 
-        <section className='bg-[#9eb0ff] py-20 w-full text-slate-800 min-h-max'>
-          <div className='container mx-auto max-w-5xl text-justify'>
+        <section className='py-10 w-full text-slate-800 min-h-max px-2 border-b'>
+          <div className='container mx-auto max-w-8xl'>
             <h1 className='text-5xl font-extrabold mb-6 uppercase'>
               About Durgapur
             </h1>
@@ -47,8 +45,8 @@ export default function transportationClimate() {
           </div>
         </section>
 
-        <section className='bg-[#b74f52] py-20 w-full text-slate-100 min-h-max'>
-          <div className='container mx-auto max-w-5xl text-justify'>
+        <section className='py-10 w-full text-slate-800 min-h-max px-2 border-b'>
+          <div className='container mx-auto max-w-8xl'>
             <h2 className='text-5xl font-extrabold mb-6 uppercase'>
               Transportation in Durgapur
             </h2>
@@ -111,8 +109,8 @@ export default function transportationClimate() {
           </div>
         </section>
 
-        <section className='bg-[#7CEA9C] py-20 w-full text-slate-800 min-h-max'>
-          <div className='container mx-auto max-w-5xl text-justify'>
+        <section className='py-10 w-full text-slate-800 min-h-max px-2'>
+          <div className='container mx-auto max-w-8xl'>
             <h2 className='text-5xl font-extrabold mb-6 uppercase'>Climate</h2>
             <p className='my-3 md:ml-6'>
               Durgapur is surrounded by Asansol subdivision on the west,

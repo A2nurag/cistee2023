@@ -88,30 +88,30 @@ export default function Navbar({ pageName }) {
             Keynote Speakers
           </Link>
 
-          {/*<a*/}
-          {/*  className={pageName === "more" ? linkClassPCActive : linkClassPC}*/}
-          {/*  onClick={(e) => {*/}
-          {/*    const drop = document.getElementById("drop");*/}
-          {/*    drop.classList.toggle("active");*/}
-          {/*  }}*/}
-          {/*  style={{ display: "flex", alignItems: "center" }}*/}
-          {/*>*/}
-          {/*  More*/}
-          {/*  <svg*/}
-          {/*    xmlns="http://www.w3.org/2000/svg"*/}
-          {/*    width="20"*/}
-          {/*    height="20"*/}
-          {/*    viewBox="0 0 24 24"*/}
-          {/*    fill="none"*/}
-          {/*    stroke="currentColor"*/}
-          {/*    strokeWidth="2"*/}
-          {/*    strokeLinecap="round"*/}
-          {/*    strokeLinejoin="round"*/}
-          {/*    className="feather feather-chevron-down"*/}
-          {/*  >*/}
-          {/*    <polyline points="6 9 12 15 18 9"></polyline>*/}
-          {/*  </svg>*/}
-          {/*</a>*/}
+          <a
+            className={pageName === "more" ? linkClassPCActive : linkClassPC}
+            onClick={(e) => {
+              const drop = document.getElementById("drop");
+              drop.classList.toggle("active");
+            }}
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
 
           <div
             className="absolute top-16 right-4 bg-zinc-900 p-6 hidden flex-col gap-6 items-start"
@@ -126,73 +126,61 @@ export default function Navbar({ pageName }) {
             </Link>
 
             <Link
-              href="/transportationClimate"
-              className={
-                pageName === "transportation" ? linkClassPCActive : linkClassPC
-              }
-              title="About Durgapur-Transportation & Climate - CISTEE 2023"
+              href="/manitbhopal"
+              className={linkClassPC}
+              title="About MANIT Bhopal - CISTEE 2023"
+            >
+              About MANIT Bhopal
+            </Link>
+
+            <Link
+              href="/transportation"
+              className={linkClassPC}
+              title="About Durgapur - Transportation & Climate - CISTEE 2023"
             >
               About Durgapur-Transportation & Climate
             </Link>
 
             <Link
-              href="/accomodation"
-              className={
-                pageName === "accomodation" ? linkClassPCActive : linkClassPC
-              }
-              title="Accommodation & List of Hotels - CISTEE 2023"
-            >
-              Accommodation & List of Hotels
-            </Link>
-
-            <Link
               href="/template"
-              className={
-                pageName === "program" ? linkClassPCActive : linkClassPC
-              }
+              className={linkClassPC}
               title="Template - CISTEE 2023"
             >
-              CISTEE 2023 Conference Template
+              Conference Template
             </Link>
 
             <Link
               href="/sponsorship"
-              className={
-                pageName === "program" ? linkClassPCActive : linkClassPC
-              }
+              className={linkClassPC}
               title="Sponsorship - CISTEE 2023"
             >
               Sponsorship
             </Link>
 
             <Link
-              href="/programSchedule"
-              className={
-                pageName === "program" ? linkClassPCActive : linkClassPC
-              }
+              href="/programschedule"
+              className={linkClassPC}
               title="Program Schedule - CISTEE 2023"
             >
               Program Schedule
             </Link>
 
             <Link
-              href="/contact"
-              className={
-                pageName === "program" ? linkClassPCActive : linkClassPC
-              }
-              title="Contact - CISTEE 2023"
-            >
-              Contact
-            </Link>
-            <Link
-              href="/bankDetails"
-              className={
-                pageName === "program" ? linkClassPCActive : linkClassPC
-              }
+              href="/bankdetails"
+              className={linkClassPC}
               title="Bank Details - CISTEE 2023"
             >
               Bank Details
             </Link>
+
+            <Link
+              href="/contact"
+              className={linkClassPC}
+              title="Contact - CISTEE 2023"
+            >
+              Contact
+            </Link>
+
           </div>
         </div>
       </nav>
