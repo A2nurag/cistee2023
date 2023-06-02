@@ -35,7 +35,7 @@ export default function keynote() {
                                 <p className='my-2'><span className='font-bold'>Email :</span> <a href='mailto:vijay.sood@ontariotechu.ca' target='_blank' rel='noreferrer' className='text-blue-800 underline'>vijay.sood@ontariotechu.ca</a></p>
                                 <p className='my-2'><span className='font-bold'>Webpage :</span> <a href='https://engineering.ontariotechu.ca/people/ecse/vijay.sood.php' target='_blank' rel='noreferrer' className='text-blue-800 underline'>https://engineering.ontariotechu.ca/people/ecse/vijay.sood.php</a></p>
                                 <p className='font-bold text-lg my-2'>About the Speaker: </p>
-                                <p className='my-2'>Vijay Sood (SM'79 - F'06) has received his Ph.D. degree from the University of Bradford,
+                                <p className='my-2'>Vijay Sood (SM&apos;79 - F&apos;06) has received his Ph.D. degree from the University of Bradford,
                                     Bradford, U.K., in 1977. He is currently the Chair of Department of ECSE, at Ontario Tech
                                     University, Ontario, Canada. He has extensive experience in the simulation of HVDC-
                                     FACTS systems and their controllers. He has authored two textbooks on HVDC
@@ -70,7 +70,7 @@ export default function keynote() {
                                 <p className='my-2'><span className='font-bold'>Webpage :</span> <a href='https://www.uia.no/kk/profil/mohanlk' target='_blank' rel='noreferrer' className='text-blue-800 underline'>https://www.uia.no/kk/profil/mohanlk</a></p>
                                 <p className='font-bold text-lg my-2'>About the Speaker: </p>
                                 <p className='my-2'>
-                                    Professor Mohan Kolhe is with the University of Agder (Norway) as full professor in electrical power engineering with focus in smart grid and renewable energy in the Faculty of Engineering and Science. He has also received the offer of full professorship in smart grid from the Norwegian University of Science and Technology (NTNU). He has more than twenty-five years’ academic experience at international level on electrical and renewable energy systems. He is a leading renewable energy technologist and has previously held academic positions at the world's prestigious universities e.g. University College London (UK / Australia), University of Dundee (UK); University of Jyvaskyla (Finland); Hydrogen Research Institute, QC (Canada) etc.
+                                    Professor Mohan Kolhe is with the University of Agder (Norway) as full professor in electrical power engineering with focus in smart grid and renewable energy in the Faculty of Engineering and Science. He has also received the offer of full professorship in smart grid from the Norwegian University of Science and Technology (NTNU). He has more than twenty-five years&apos; academic experience at international level on electrical and renewable energy systems. He is a leading renewable energy technologist and has previously held academic positions at the world&apos;s prestigious universities e.g. University College London (UK / Australia), University of Dundee (UK); University of Jyvaskyla (Finland); Hydrogen Research Institute, QC (Canada) etc.
                                 </p>
                             </div>
                         </div>
