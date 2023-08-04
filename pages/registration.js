@@ -268,8 +268,7 @@ export default function Registration() {
               <p className="mt-2 md:ml-6">
                 Any accepted paper included in the final program is expected to
                 have at least one author attend and present the paper at the
-                conference. Non-presented paper will not be submitted to IEEE
-                Xplore® digital library as per IEEE no-show policy.
+                conference. Non-presented paper will not be submitted to Springer as per Springer no-show policy.
               </p>
             </div>
           </div>
