@@ -108,7 +108,7 @@ export default function Home() {
 
             <p className="mt-3">
               In the context of present COVID situation, the conference will be
-              organized in Online mode. The objective of the conference is to
+              organized in hybrid mode. The objective of the conference is to
               offer a platform for electrical engineers and researchers to
               present their research work and to share experiences and ideas in
               the area of power energy and control related engineering
