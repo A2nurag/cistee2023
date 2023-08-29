@@ -30,6 +30,8 @@ export default function Navbar({ pageName }) {
           >
             Home
           </Link>
+
+          {/* Dates */}
           <Link
             href="/dates"
             className={pageName === "dates" ? linkClassPCActive : linkClassPC}
@@ -37,6 +39,8 @@ export default function Navbar({ pageName }) {
           >
             Dates
           </Link>
+
+          {/* Registration */}
           <Link
             href="/registration"
             className={
@@ -46,6 +50,8 @@ export default function Navbar({ pageName }) {
           >
             Registration
           </Link>
+
+          {/* Call for Papers */}
           <Link
             href="/callForPapers"
             className={
@@ -55,6 +61,8 @@ export default function Navbar({ pageName }) {
           >
             Call for Papers
           </Link>
+
+          {/* Paper Submission */}
           <Link
             href="/paperSubmission"
             className={
@@ -64,15 +72,69 @@ export default function Navbar({ pageName }) {
           >
             Paper Submission
           </Link>
-          <Link
-            href="/committee"
+
+          {/* Committee */}
+          <a
             className={
               pageName === "committee" ? linkClassPCActive : linkClassPC
             }
-            title="Committee - CISTEE 2023"
+            onClick={(e) => {
+              const drop = document.getElementById("c-drop");
+              drop.classList.toggle("active");
+              console.log();
+              drop.style.left = `${
+                e.target.getBoundingClientRect().left - 25
+              }px`;
+            }}
+            style={{ display: "flex", alignItems: "center" }}
           >
             Committee
-          </Link>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="feather feather-chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+
+          <div
+            className="absolute top-16 bg-zinc-900 p-6 hidden flex-col gap-6 items-start"
+            id="c-drop"
+          >
+            <Link
+              href="/organisingcommittee"
+              className={linkClassPC}
+              title="Organising Committee - CISTEE 2023"
+            >
+              Organising Committee
+            </Link>
+
+            <Link
+              href="/nationalinternationalcommittee"
+              className={linkClassPC}
+              title="National & International Committee - CISTEE 2023"
+            >
+              National & International Committee
+            </Link>
+
+            <Link
+              href="/trackchairs"
+              className={linkClassPC}
+              title="Track Chairs - CISTEE 2023"
+            >
+              Track Chairs
+            </Link>
+          </div>
+
+          {/* Program */}
           <Link
             href="/program"
             className={pageName === "program" ? linkClassPCActive : linkClassPC}
@@ -180,7 +242,6 @@ export default function Navbar({ pageName }) {
             >
               Contact
             </Link>
-
           </div>
         </div>
       </nav>

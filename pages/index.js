@@ -65,10 +65,10 @@ export default function Home() {
                   Scopus, SCImago, DBLP etc..
                 </p>
                 <svg
-                 xmlns="http://www.w3.org/2000/svg"
-                 width="196"
-                 height="52.5"
-                 viewBox="0 0 112 30"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="196"
+                  height="52.5"
+                  viewBox="0 0 112 30"
                 >
                   <g fill="none" fillRule="evenodd">
                     <path
