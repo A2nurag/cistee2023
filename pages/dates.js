@@ -25,11 +25,13 @@ export default function Dates() {
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Full paper Submission portal closes
-                <span className="text-lg font-black">30th August 2023</span>
+                <span className="text-lg font-black">
+                  15th September 2023 (Hard Deadline)
+                </span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Notification of Acceptance of the manuscript
-                <span className="text-lg font-black">30th September 2023</span>
+                <span className="text-lg font-black">15th October 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Final Camera-ready paper submission
