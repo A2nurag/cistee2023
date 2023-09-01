@@ -22,10 +22,10 @@ export default function OrganisingCommittee() {
             {/* Patron */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">Patron(s):</h2>
             <p className="py-1 pl-6">
-              Prof. Arvind Choubey, Director NIT Durgapur.
+              Prof. Arvind Choubey, Director, NIT Durgapur.
             </p>
             <p className="py-1 pl-6">
-              Dr. Karunesh Kumar Shukla, MANIT Bhopal.
+              Dr. Karunesh Kumar Shukla, Director, MANIT Bhopal.
             </p>
 
             {/* Co Patron */}
