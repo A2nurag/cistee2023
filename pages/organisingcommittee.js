@@ -20,11 +20,13 @@ export default function OrganisingCommittee() {
               Organising Committee
             </h1>
             {/* Patron */}
-            <h2 className="mt-2 text-lg font-bold text-gray-800">
-              Patron(s):
-            </h2>
-            <p className="py-1 pl-6">Director, NIT Durgapur.</p>
-            <p className="py-1 pl-6">Director, MANIT Bhopal.</p>
+            <h2 className="mt-2 text-lg font-bold text-gray-800">Patron(s):</h2>
+            <p className="py-1 pl-6">
+              Prof. Arvind Choubey, Director NIT Durgapur.
+            </p>
+            <p className="py-1 pl-6">
+              Dr. Karunesh Kumar Shukla, MANIT Bhopal.
+            </p>
 
             {/* Co Patron */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">
@@ -74,15 +76,10 @@ export default function OrganisingCommittee() {
 
             {/* General Chair */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">
-              General Chair:
+              General Chair(s):
             </h2>
             <p className="py-1 pl-6">Prof. Nirmal Kumar Roy, NIT Durgapur.</p>
             <p className="py-1 pl-6">Prof. Manisha Dubey, MANIT Bhopal.</p>
-
-            {/* General Co-Chair */}
-            <h2 className="mt-2 text-lg font-bold text-gray-800">
-              General Co-Chair:
-            </h2>
             <p className="py-1 pl-6">
               Prof. S. N. Mahato, Head, Department of Electrical Engineering,
               NIT Durgapur
@@ -94,7 +91,7 @@ export default function OrganisingCommittee() {
 
             {/* Conference Chair */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">
-              Conference Chair:
+              Conference Chair(s):
             </h2>
             <p className="py-1 pl-6">Prof. S. S. Thakur, NIT Durgapur.</p>
             <p className="py-1 pl-6">Prof. T. Mandal, NIT Durgapur.</p>
@@ -104,7 +101,7 @@ export default function OrganisingCommittee() {
 
             {/* Technical Programme Chair */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">
-              Technical Programme Chair:
+              Technical Programme Chair(s):
             </h2>
             <p className="py-1 pl-6">Prof. Subrata Banerjee, NIT Durgapur</p>
             <p className="py-1 pl-6">Prof. Parimal Acharjee, NIT Durgapur</p>
@@ -123,10 +120,10 @@ export default function OrganisingCommittee() {
             <p className="py-1 pl-6">
               Dr. Partha Sarathee Bhowmik, NIT Durgapur
             </p>
+            <p className="py-1 pl-6">Dr. Aashish Kumar Bohre, NIT Durgapur</p>
             <p className="py-1 pl-6">
               Dr. Mukesh Kumar Kirar, MANIT Bhopal, India
             </p>
-            <p className="py-1 pl-6">Dr. Aashish Kumar Bohre, NIT Durgapur</p>
 
             {/* Program Secretaries */}
             <h2 className="mt-2 text-lg font-bold text-gray-800">

@@ -20,7 +20,7 @@ export default function keynote() {
                 </div>
                 <section className='py-10 w-full text-slate-800 min-h-max px-2 border-b'>
                     <div className='container mx-auto max-w-8xl'>
-                        <div className='flex flex-col lg:flex-row gap-5 items-center justify-between'>
+                        <div className='flex flex-col lg:flex-row gap-5 items-start justify-between'>
                             <img src='https://shared.ontariotechu.ca/shared/faculty/feas/images/faculty-photos/dr.-vijay-sood_1.jpeg' className='rounded-md shadow-lg' />
                             <div>
                                 <p className='font-bold text-2xl'>Prof. Vijay K. Sood, P.Eng., Ph.D., LFIEEE, Emeritus FCAE, FEIC</p>
@@ -52,7 +52,7 @@ export default function keynote() {
 
                 <section className='py-10 w-full text-slate-800 min-h-max px-2 border-b'>
                     <div className='container mx-auto max-w-8xl'>
-                        <div className='flex flex-col lg:flex-row gap-5 items-center justify-between'>
+                        <div className='flex flex-col lg:flex-row gap-5 items-start justify-between'>
                             <img src='https://res.cloudinary.com/uiagder/image/upload/c_thumb,g_face,h_339,w_255,z_0.8/v1685717319/mohanlk_profil' className='rounded-md shadow-lg' />
                             <div>
                                 <p className='font-bold text-2xl'>Prof. Mohan Lal Kolhe</p>
@@ -80,7 +80,7 @@ export default function keynote() {
 
                 <section className='py-10 w-full text-slate-800 min-h-max px-2 border-b'>
                     <div className='container mx-auto max-w-8xl'>
-                        <div className='flex flex-col lg:flex-row gap-5 items-center justify-between'>
+                        <div className='flex flex-col lg:flex-row gap-5 items-start justify-between'>
                             <img src='/sanjeet.png' className='rounded-md shadow-lg' />
                             <div>
                                 <p className='font-bold text-2xl'>Prof. Sanjeet Kumar Dwivedi
@@ -109,7 +109,7 @@ export default function keynote() {
 
                 <section className='py-10 w-full text-slate-800 min-h-max px-2'>
                     <div className='container mx-auto max-w-8xl'>
-                        <div className='flex flex-col lg:flex-row gap-5 items-center justify-between'>
+                        <div className='flex flex-col lg:flex-row gap-5 items-start justify-between'>
                             <img src='/akhtar.png' className='rounded-md shadow-lg' />
                             <div>
                                 <p className='font-bold text-2xl'>Pro. Akhtar Kalam</p>
