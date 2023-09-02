@@ -19,9 +19,8 @@ export default function brochure() {
                         <h1 className='text-5xl font-extrabold mb-6 uppercase'>
                             Brochure
                         </h1>
-                        <p>
-                            To be updated!
-                        </p>
+                        
+                        <a href='/CISTEE 2023-01-09-2023.pdf' target='_blank' rel='noreferrer' className='inline-block bg-blue-700 px-7 py-4 font-bold text-white rounded-lg text-lg hover:bg-blue-800'>Get The Brochure</a>
                     </div>
                 </section>
             </main>
