@@ -1,22 +1,22 @@
-import { Inter } from "@next/font/google";
+import { Public_Sans } from "@next/font/google";
 
-const inter = Inter({ weight: "variable", subsets: ["latin"] });
+const inter = Public_Sans({ weight: "variable", subsets: ["latin"] });
 
 export default function Footer() {
   return (
     <footer
       className={`bg-slate-300 py-5 w-full text-slate-800 px-2 ${inter.className}`}
     >
-      <div className="container mx-auto max-w-8xl">
+      <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row justify-between text-slate-800">
           <div className="py-2 max-w-2xl">
-            <p className="font-medium">CISTEE 2023</p>
+            <p className="font-medium text-2xl">CISTEE 2023</p>
 
             <p className="mt-2">
               Computational Intelligence and Smart Technologies in Electrical
               Engineering
             </p>
-            <p className="font-medium underline">cistee2023@gmail.com</p>
+            <p className="font-medium">Email ID: cistee2023@gmail.com</p>
 
             <p className="mt-2">
               &#169; Copyright CISTEE 2023 & NIT Durgapur : All rights reserved.
@@ -25,9 +25,10 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-col lg:flex-row items-center gap-2">
-            <img src="/nitd.png" className="max-h-20 bg-blend-darken" />
+            <img src="/nitd.png" className="max-h-24 bg-blend-darken" />
 
-            <img src="/manit bhopal.png" className="max-h-20" />
+            <img src="/manit bhopal.png" className="max-h-24" />
+            <img src="/7818.jpg" className="max-h-32" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="280"

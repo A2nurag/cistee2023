@@ -1,12 +1,52 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
+import { Public_Sans } from "@next/font/google";
 import Navbar from "../components/navbar";
+import { Check, FileText, Upload } from "react-feather";
+import { useState } from "react";
 
-const inter = Inter({ weight: "variable", subsets: ["latin"] });
+const inter = Public_Sans({
+  weight: "variable",
+  subsets: ["latin"],
+});
 
 export default function paperSubmission() {
+  const [modal, setModal] = useState(false);
+
   return (
     <>
+      {modal && (
+        <div
+          id="close"
+          className="absolute w-screen h-screen bg-black bg-opacity-70 grid place-items-center backdrop-blur-lg"
+          onClick={(e) => {
+            if (e.target.id === "close") setModal(false);
+          }}
+        >
+          <div className="bg-white p-24 rounded-2xl">
+            <div>
+              <p className="text-center text-xl font-bold mb-4">
+                Download Template
+              </p>
+              <a
+                className="font-medium px-12 py-5 inline-block bg-red-300 uppercase text-center rounded-l-2xl border border-zinc-700"
+                href="/LaTeX template.zip"
+              >
+                Latex
+                <br />
+                Template
+              </a>
+              <a
+                className="font-medium px-12 py-5 inline-block bg-blue-200 uppercase text-center rounded-r-2xl border border-zinc-700"
+                href="/Word template.doc"
+              >
+                Word
+                <br />
+                Template
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
       <Head>
         <title>Paper Submission | CISTEE 2023</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,22 +54,45 @@ export default function paperSubmission() {
       <main className={inter.className}>
         <Navbar pageName="paperSubmission" />
 
-        <section className="py-20 w-full text-slate-800 min-h-screen font-medium px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+        <section className="py-20 w-full text-slate-800 min-h-screen font-medium px-4">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase text-slate-900">
               Paper Submission
             </h1>
-            <p className="my-1">For Paper submission, Click here</p>
-            <a
-              type="button"
-              href="https://cmt3.research.microsoft.com/CISTEE2023/Submission/Index"
-              target="_blank"
-              rel="noreferrer"
-              className="my-3 inline-block rounded-lg bg-indigo-600 py-3 px-6 text-center text-base font-semibold text-white shadow-md transition duration-200 ease-in hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500  focus:ring-offset-2 focus:ring-offset-indigo-200 disabled:bg-slate-400"
-            >
-              Submit Paper
-            </a>
-            <p className="my-1">
+            <div className="flex justify-center">
+              <a
+                type="button"
+                href="https://cmt3.research.microsoft.com/CISTEE2023/Submission/Index"
+                target="_blank"
+                rel="noreferrer"
+                className="flex bg-blue-300 px-7 py-4 rounded-l-lg font-bold gap-2 border border-zinc-700"
+              >
+                <Upload />
+                Submit Paper
+              </a>
+
+              <button
+                className="flex bg-amber-50 px-7 py-4 font-bold gap-2 border border-zinc-700"
+                onClick={() => {
+                  setModal(true);
+                }}
+              >
+                <FileText />
+                Template (Latex/ Word)
+              </button>
+
+              <a
+                type="button"
+                href="/Author-Template-Springer.docx"
+                target="_blank"
+                rel="noreferrer"
+                className="flex bg-blue-300 px-7 py-4 rounded-r-lg font-bold gap-2 border border-zinc-700"
+              >
+                <Check />
+                Springer Guidelines for Authors
+              </a>
+            </div>
+            <p className="mt-5">
               All papers must be original and not simultaneously submitted to
               another journal or conference. The following steps and guidelines
               should be followed for the submission of paper:

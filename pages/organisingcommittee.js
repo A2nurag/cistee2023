@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Navbar from "../components/navbar";
-import { useState, useEffect } from "react";
+
 const inter = Inter({ weight: "variable", subsets: ["latin"] });
 
 export default function OrganisingCommittee() {
@@ -25,7 +25,7 @@ export default function OrganisingCommittee() {
               Prof. Arvind Choubey, Director, NIT Durgapur.
             </p>
             <p className="py-1 pl-6">
-              Dr. Karunesh Kumar Shukla, Director, MANIT Bhopal.
+              Prof. Karunesh Kumar Shukla, Director, MANIT Bhopal.
             </p>
 
             {/* Co Patron */}
@@ -61,17 +61,19 @@ export default function OrganisingCommittee() {
               Honorary Co Chair(s):
             </h2>
             <p className="py-1 pl-6">
-              Prof. Sanjeevikumar, University of South-Eastern Norway, Norway.
-            </p>
-            <p className="py-1 pl-6">
-              Prof. Aimie Nazmin Bin Azmi, UniversitiTeknikal Malaysia,
-              Malaysia.
+              Prof. Aimie Nazmin Bin Azmi, Universiti Teknikal, Malaysia.
             </p>
             <p className="py-1 pl-6">
               Prof. Akira Nishimura, Mie University, Japan.
             </p>
             <p className="py-1 pl-6">
               Prof. Amitava Roy, University of Portsmouth, UK.
+            </p>
+            <p className="py-1 pl-6">
+              Prof. P. Sanjeev Kumar, University of South-Eastern, Norway.
+            </p>
+            <p className="py-1 pl-6">
+              Dr. S. Suwarno, Institute Technology SUPULUH, Indonesia.
             </p>
 
             {/* General Chair */}

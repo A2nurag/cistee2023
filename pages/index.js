@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
-import { Inter } from "@next/font/google";
+import { Public_Sans } from "@next/font/google";
 
-const inter = Inter({ weight: "variable", subsets: ["latin"] });
+const inter = Public_Sans({ weight: "variable", subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -20,11 +20,18 @@ export default function Home() {
                 "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
             }}
           >
-            <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1800px] mx-auto pb-10 text-center gap-2 px-2">
+            <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-full mx-auto pb-10 text-center gap-2 px-4">
               <div>
+                <img
+                  src="/nitd logo white.png"
+                  className="max-h-20 lg:max-h-36 opacity-80 hidden lg:block"
+                />
                 <h1 className="text-5xl lg:text-9xl text-center lg:text-left text-white font-[900]">
                   CISTEE 2023
                 </h1>
+                <p className="text-sm lg:text-xl text-white text-opacity-80 lg:text-left">
+                  December 16 - 17, 2023
+                </p>
                 <p className="text-sm lg:text-xl text-white text-opacity-80 lg:text-left">
                   Computational Intelligence and Smart Technologies in
                   Electrical Engineering
@@ -37,16 +44,16 @@ export default function Home() {
                   conference proceedings by Springer LNEE Series
                 </marquee>
               </div>
-              <img
-                src="/nitd logo white.png"
-                className="max-h-20 lg:max-h-36 opacity-80 hidden lg:block"
-              />
+              {/*<img*/}
+              {/*  src="/nitd logo white.png"*/}
+              {/*  className="max-h-20 lg:max-h-36 opacity-80 hidden lg:block"*/}
+              {/*/>*/}
             </div>
           </div>
         </header>
 
         <section className="bg-zinc-200 py-20 w-full text-slate-800 px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               CONFERENCE PROCEEDINGS
             </h3>
@@ -57,11 +64,11 @@ export default function Home() {
                   All full paper submissions will be blind reviewed on the basis
                   of technical quality, relevance to conference topics of
                   interest, originality, significance, and presentation.
-                  Accepted papers will be published into the Lecture Notes in
-                  Electrical Engineering (Electronic ISSN: 1876-1119) as a
+                  Accepted papers will be published into the Lecture Notes in
+                  Electrical Engineering (Electronic ISSN: 1876-1119) as a
                   proceedings book volume. Springer will conduct quality checks
                   on the accepted papers and only papers that pass these checks
-                  will be published. Indexed by Ei Compendex, Web of science,
+                  will be published. Indexed by Ei Compendex, Web of science,
                   Scopus, SCImago, DBLP etc..
                 </p>
                 <svg
@@ -92,8 +99,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-green-300 py-20 w-full text-slate-800 px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+        <section className="bg-green-200 py-20 w-full text-slate-800 px-2">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               ABOUT CISTEE
             </h3>
@@ -137,8 +144,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-purple-800 py-20 w-full text-slate-200 px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+        <section className="bg-red-200 py-20 w-full text-slate-800 px-2">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR
             </h3>
@@ -211,8 +218,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-zinc-200 py-20 w-full text-slate-800 px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+        <section className="bg-amber-100 py-20 w-full text-slate-800 px-2">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">
               DEPARTMENT OF ELECTRICAL ENGINEERING, NITD
             </h3>

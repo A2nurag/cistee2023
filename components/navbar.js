@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import SideBar from "./sidebar";
-import { ChevronDown } from "react-feather";
 
 export default function Navbar({ pageName }) {
   const [clicked, setClicked] = useState(false);
@@ -201,14 +200,6 @@ export default function Navbar({ pageName }) {
               title="About Durgapur - Transportation & Climate - CISTEE 2023"
             >
               About Durgapur-Transportation & Climate
-            </Link>
-
-            <Link
-              href="/template"
-              className={linkClassPC}
-              title="Template - CISTEE 2023"
-            >
-              Conference Template
             </Link>
 
             <Link

@@ -9,20 +9,20 @@ export default function NationalInternationalCommittee() {
   const [national, setNational] = useState([]);
   useEffect(() => {
     setInternational([
-      "Prof. M. L. Kolhe, University of Agder, Norway.",
-      "Prof. Akhtar Kalam, Victoriya University, Australia.",
-      "Prof. V. K. Sood, University of Ontario, Canada.",
-      "Dr. Anurag K. Srivastava, West Virginia University, USA.",
+      "Prof.  M. L. Kolhe, University of Agder, Norway.",
+      "Prof.  Akhtar Kalam, Victoriya University, Australia.",
+      "Prof.  V. K. Sood, University of Ontario, Canada.",
+      "Dr.  Anurag K. Srivastava, West Virginia University, USA.",
       "Prof. Sanjeet Dwivedi, Danfoss Power Electronics A/S, Denmark.",
-      "Prof. Manucher Solemani, University of Bath, UK.",
-      "Prof. Koki Ogura, Kyushu Sangyo University, Japan.",
+      "Prof.  Manucher Solemani, University of Bath, UK.",
+      "Prof.  Koki Ogura, Kyushu Sangyo University, Japan.",
       "Dr. Aimie Nazmin Bin Azmi, Universiti Teknikal Malaysia, Malaysia.",
-      "Prof. Akira Nishimura, Mie University, Japan.",
-      "Prof. Amitava Roy, University of Portsmouth, UK.",
-      "Prof. P. Sanjeev Kumar, Denmark.",
-      "Prof. Biplab Sikdar, Singapore.",
-      "Prof. Akshay Kumar Saha, South Africa.",
-      "Dr. Baseem Khan , Hawassa University, Ethiopia.",
+      "Prof.  Akira Nishimura, Mie University, Japan.",
+      "Prof.  Amitava Roy, University of Portsmouth, UK.",
+      "Prof. P. Sanjeev Kumar, University of South-Eastern, Norway.",
+      "Prof.  Biplab Sikdar, National University of Singapore, Singapore.",
+      "Prof. Akshay Kumar Saha, University of KwaZulu-Natal, South Africa.",
+      "Dr. Baseem Khan, Hawassa University,",
     ]);
 
     setNational([
