@@ -9,7 +9,7 @@ const inter = Public_Sans({
   subsets: ["latin"],
 });
 
-export default function paperSubmission() {
+export default function PaperSubmission() {
   const [modal, setModal] = useState(false);
 
   return (
