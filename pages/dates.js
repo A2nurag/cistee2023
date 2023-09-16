@@ -26,7 +26,7 @@ export default function Dates() {
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Full paper Submission portal closes
                 <span className="text-lg font-black">
-                  15th September 2023 (Hard Deadline)
+                  25th September 2023 (Hard Deadline)
                 </span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
