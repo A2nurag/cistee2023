@@ -39,7 +39,7 @@ export default function Journalspecialissues() {
                     <a
                       href="https://www.aimspress.com/aimse/article/6599/special-articles"
                       target="_blank"
-                      rel="norefferrer"
+                      rel="noreferrer"
                       className="text-blue-800"
                     >
                       https://www.aimspress.com/aimse/article/6599/special-articles
@@ -52,7 +52,7 @@ export default function Journalspecialissues() {
                     <a
                       href="https://www.aimspress.com/aimse/article/6369/special-articles"
                       target="_blank"
-                      rel="norefferrer"
+                      rel="noreferrer"
                       className="text-blue-800"
                     >
                       https://www.aimspress.com/aimse/article/6369/special-articles
@@ -70,7 +70,7 @@ export default function Journalspecialissues() {
                 <a
                   href="https://ijpeds.iaescore.com/index.php/IJPEDS"
                   target="_blank"
-                  rel="norefferrer"
+                  rel="noreferrer"
                   className="text-blue-800 ml-5"
                 >
                   https://ijpeds.iaescore.com/index.php/IJPEDS
