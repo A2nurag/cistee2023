@@ -79,7 +79,7 @@ export default function Journalspecialissues() {
             </ol>
             <p className="mt-5">
               For submitting extended versions of recommended papers, the
-              authors will have to follow respective journals' guidelines, terms
+              authors will have to follow respective journals&apos; guidelines, terms
               & conditions and other criteria as per their policy.
             </p>
           </div>
