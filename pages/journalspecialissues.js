@@ -33,8 +33,8 @@ export default function Journalspecialissues() {
                 </span>
                 <ul className="ml-5 list-inside">
                   <li className="my-3">
-                    Special Issue: Computational Intelligence and Smart
-                    Technologies for Sustainable Electrical Energy Systems
+                    <strong>1. Special Issue: Computational Intelligence and Smart
+                    Technologies for Sustainable Electrical Energy Systems</strong>
                     <br />
                     <a
                       href="https://www.aimspress.com/aimse/article/6599/special-articles"
@@ -47,7 +47,7 @@ export default function Journalspecialissues() {
                   </li>
 
                   <li className="my-3">
-                    Special Issue: Sustainable E-Mobility
+                    <strong>2. Special Issue: Sustainable E-Mobility</strong>
                     <br />
                     <a
                       href="https://www.aimspress.com/aimse/article/6369/special-articles"
