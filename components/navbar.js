@@ -117,11 +117,19 @@ export default function Navbar({ pageName }) {
             </Link>
 
             <Link
-              href="/nationalinternationalcommittee"
+              href="/nationalcommittee"
               className={linkClassPC}
-              title="National & International Committee - CISTEE 2023"
+              title="National Advisory Committee - CISTEE 2023"
             >
-              National & International Committee
+              National Advisory Committee
+            </Link>
+
+            <Link
+              href="/internationalcommittee"
+              className={linkClassPC}
+              title="International Advisory Committee - CISTEE 2023"
+            >
+              International Advisory Committee
             </Link>
 
             <Link
