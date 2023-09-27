@@ -192,6 +192,14 @@ export default function Navbar({ pageName }) {
             id="drop"
           >
             <Link
+              href="/technicalcollaborators"
+              className={linkClassPC}
+              title="Technical Collaborators - CISTEE 2023"
+            >
+              Technical Collaborators
+            </Link>
+            
+            <Link
               href="/brochure"
               className={linkClassPC}
               title="Brochure - CISTEE 2023"
@@ -245,14 +253,6 @@ export default function Navbar({ pageName }) {
               title="Contact - CISTEE 2023"
             >
               Contact
-            </Link>
-
-            <Link
-              href="/technicalcollaborators"
-              className={linkClassPC}
-              title="Technical Collaborators - CISTEE 2023"
-            >
-              Technical Collaborators
             </Link>
           </div>
         </div>
