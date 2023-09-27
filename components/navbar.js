@@ -6,9 +6,9 @@ export default function Navbar({ pageName }) {
   const [clicked, setClicked] = useState(false);
   const [drop, setDrop] = useState(false);
   const linkClassPC =
-    "text-slate-100 font-medium hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
+    "text-slate-100 font-bold hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
   const linkClassPCActive =
-    "text-slate-100 font-medium hidden md:flex border-b-slate-200 border-b-2";
+    "text-slate-100 font-bold hidden md:flex border-b-slate-200 border-b-2";
   const bg =
     pageName === "home"
       ? "linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.75) 35%, rgba(0, 0, 0, 0) 100%)"

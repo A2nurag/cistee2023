@@ -53,18 +53,18 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <section className="bg-zinc-900 py-3 w-full text-slate-200 px-2">
+        <section className="bg-[#1261a0] py-3 w-full text-slate-100 px-2">
           <marquee
-            className="text-md font-medium"
+            className="text-md font-bold"
             scrolldelay="1"
             scrollamount={4}
             direction="right"
           >
             <Link href="/journalspecialissues">
               Extended version of high quality/best papers presented in Springer
-              CISTEE2023 conference will be recommended for possible publication
+              CISTEE 2023 conference will be recommended for possible publication
               and further submission and peer review process in different
-              reputed journals. For more information <strong>click here</strong>
+              reputed journals. For more details <strong>click here</strong>
             </Link>
           </marquee>
         </section>
