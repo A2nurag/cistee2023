@@ -198,7 +198,7 @@ export default function Navbar({ pageName }) {
             >
               Technical Collaborators
             </Link>
-            
+
             <Link
               href="/brochure"
               className={linkClassPC}
@@ -213,6 +213,16 @@ export default function Navbar({ pageName }) {
               title="About MANIT Bhopal - CISTEE 2023"
             >
               About MANIT Bhopal
+            </Link>
+
+            <Link
+              href="https://www.theiet.org/"
+              target="_blank"
+              rel="noreferrer"
+              className={linkClassPC}
+              title="About IET"
+            >
+              About IET
             </Link>
 
             <Link
