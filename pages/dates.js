@@ -16,7 +16,7 @@ export default function Dates() {
         <Navbar pageName="dates" />
 
         <section className="py-20 w-full text-slate-800 min-h-max px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6">DATES</h1>
             <ul className="flex list-inside list-none flex-col gap-4 font-md">
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
@@ -26,7 +26,7 @@ export default function Dates() {
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Full paper Submission portal closes
                 <span className="text-lg font-black">
-                  25th September 2023 (Hard Deadline)
+                  10th October 2023 (Hard Deadline)
                 </span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">

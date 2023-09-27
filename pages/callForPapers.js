@@ -15,7 +15,7 @@ export default function callForPapers() {
         <Navbar pageName="callForPapers" />
 
         <section className="py-20 w-full text-slate-800 min-h-max px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase text-slate-900 text-left">
               Call For Papers
             </h1>

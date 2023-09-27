@@ -17,7 +17,7 @@ export default function program() {
         <Navbar pageName="program" />
 
         <section className="py-20 w-full text-slate-800 min-h-screen">
-          <div className="container mx-auto max-w-5xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase">Venue</h1>
             <div className="mb-5 pl-4">
               <p>

@@ -14,7 +14,7 @@ export default function Registration() {
       <main className={inter.className}>
         <Navbar pageName="registration" />
         <section className="pt-20 w-full text-slate-800 min-h-max font-medium px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase">
               Registration
             </h1>
@@ -168,7 +168,7 @@ export default function Registration() {
           </div>
         </section>
         <section className="py-5 w-full text-slate-800 min-h-max px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h2 className="text-5xl font-extrabold mb-6 uppercase">
               REGISTRATION POLICIES
             </h2>

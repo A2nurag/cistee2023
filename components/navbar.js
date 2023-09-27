@@ -6,12 +6,12 @@ export default function Navbar({ pageName }) {
   const [clicked, setClicked] = useState(false);
   const [drop, setDrop] = useState(false);
   const linkClassPC =
-    "text-slate-200 font-bold hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
+    "text-slate-100 font-medium hidden md:flex border-b-transparent border-b-2 hover:border-b-slate-200 transition cursor-pointer user-select-none";
   const linkClassPCActive =
-    "text-slate-200 font-bold hidden md:flex border-b-slate-200 border-b-2";
+    "text-slate-100 font-medium hidden md:flex border-b-slate-200 border-b-2";
   const bg =
     pageName === "home"
-      ? "linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.72) 37.5%, rgba(0, 0, 0, 0) 100%)"
+      ? "linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.75) 35%, rgba(0, 0, 0, 0) 100%)"
       : "";
   return (
     <>
@@ -149,6 +149,19 @@ export default function Navbar({ pageName }) {
             Keynote Speakers
           </Link>
 
+          {/* Journal Special Issues */}
+          <Link
+            href="/journalspecialissues"
+            className={
+              pageName === "journalspecialissues"
+                ? linkClassPCActive
+                : linkClassPC
+            }
+            title="Journal Special Issues - CISTEE 2023"
+          >
+            Journal Special Issues
+          </Link>
+
           <a
             className={pageName === "more" ? linkClassPCActive : linkClassPC}
             onClick={(e) => {
@@ -232,6 +245,14 @@ export default function Navbar({ pageName }) {
               title="Contact - CISTEE 2023"
             >
               Contact
+            </Link>
+
+            <Link
+              href="/technicalcollaborators"
+              className={linkClassPC}
+              title="Technical Collaborators - CISTEE 2023"
+            >
+              Technical Collaborators
             </Link>
           </div>
         </div>

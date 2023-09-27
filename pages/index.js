@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import { Public_Sans } from "@next/font/google";
+import Link from "next/link";
 
 const inter = Public_Sans({ weight: "variable", subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function Home() {
                 <marquee
                   className="text-sm lg:text-xl text-white text-opacity-80 font-bold mb-1 mt-2"
                   scrolldelay="1"
+                  scrollamount={4}
                 >
                   All CISTEE 2023 presented papers will be published in
                   conference proceedings by Springer LNEE Series
@@ -51,7 +53,21 @@ export default function Home() {
             </div>
           </div>
         </header>
-
+        <section className="bg-zinc-900 py-3 w-full text-slate-200 px-2">
+          <marquee
+            className="text-md font-medium"
+            scrolldelay="1"
+            scrollamount={4}
+            direction="right"
+          >
+            <Link href="/journalspecialissues">
+              Extended version of high quality/best papers presented in Springer
+              CISTEE2023 conference will be recommended for possible publication
+              and further submission and peer review process in different
+              reputed journals. For more information <strong>click here</strong>
+            </Link>
+          </marquee>
+        </section>
         <section className="bg-zinc-200 py-20 w-full text-slate-800 px-2">
           <div className="container mx-auto max-w-6xl text-justify">
             <h3 className="text-3xl lg:text-4xl font-extrabold font-[Fira Sans] mb-6">

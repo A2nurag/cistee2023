@@ -13,7 +13,7 @@ export default function keynote() {
       </Head>
       <main className={inter.className}>
         <Navbar pageName="keynote" />
-        <div className="container mx-auto max-w-8xl pt-20">
+        <div className="container mx-auto max-w-6xl pt-20">
           <h1 className="text-5xl font-extrabold mb-6 uppercase">
             Keynote Speakers
           </h1>
@@ -253,7 +253,7 @@ export default function keynote() {
             <div className="flex flex-col lg:flex-row gap-5 items-start justify-between">
               <img src="/akhtar.png" className="rounded-md shadow-lg" />
               <div>
-                <p className="font-bold text-2xl">Pro. Akhtar Kalam</p>
+                <p className="font-bold text-2xl">Prof. Akhtar Kalam</p>
                 <p className="my-2">
                   Head of External Engagement <br />
                   Leader - Smart Energy Research Unit College of Engineering and

@@ -78,7 +78,7 @@ export default function NationalInternationalCommittee() {
       <main className={inter.className}>
         <Navbar pageName="committee" />
         <section className="py-20 w-full text-slate-800 min-h-screen px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-3xl font-extrabold mb-6 uppercase">
               International Advisory / Program Committee of CISTEE 2023
             </h1>

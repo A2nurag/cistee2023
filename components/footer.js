@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row justify-between text-slate-800">
           <div className="py-2 max-w-2xl">
-            <p className="font-medium text-2xl">CISTEE 2023</p>
+            <p className="font-bold text-2xl">CISTEE 2023</p>
 
             <p className="mt-2">
               Computational Intelligence and Smart Technologies in Electrical

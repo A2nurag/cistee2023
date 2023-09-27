@@ -14,7 +14,7 @@ export default function TrackChairs() {
         <Navbar pageName="committee" />
 
         <section className="py-20 w-full text-slate-800 min-h-screen px-2">
-          <div className="container mx-auto max-w-8xl text-justify">
+          <div className="container mx-auto max-w-6xl text-justify">
             <h1 className="text-5xl font-extrabold mb-6 uppercase tracking-wide">
               Track Chairs
             </h1>
