@@ -26,25 +26,25 @@ export default function Dates() {
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Full paper Submission portal closes
                 <span className="text-lg font-black">
-                  10th October 2023 (Hard Deadline)
+                  22nd October 2023 (Hard Deadline)
                 </span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Notification of Acceptance of the manuscript
-                <span className="text-lg font-black">15th October 2023</span>
+                <span className="text-lg font-black">08th November 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Final Camera-ready paper submission
-                <span className="text-lg font-black">30th October 2023</span>
+                <span className="text-lg font-black">15th November 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Deadline for early bird registration
-                <span className="text-lg font-black">30th October 2023</span>
+                <span className="text-lg font-black">20th November 2023</span>
               </li>
 
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Deadline for Late Registration
-                <span className="text-lg font-black">6th November 2023</span>
+                <span className="text-lg font-black">25th November 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Conference Dates
