@@ -105,21 +105,21 @@ export default function Registration() {
                       Name of Account
                     </td>
                     <td className="border-2 border-zinc-700 p-2 pr-16 bg-blue-100">
-                      CISTEE 2023
+                    CEP NIT Durgapur
                     </td>
                   </tr>
                   <tr>
                     <td className="border-2 border-zinc-700 p-2 font-bold">
                       Account Number
                     </td>
-                    <td className="border-2 border-zinc-700 p-2"></td>
+                    <td className="border-2 border-zinc-700 p-2">37850318679</td>
                   </tr>
                   <tr>
                     <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
                       Name of Bank
                     </td>
                     <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                      Canara Bank
+                    State Bank of India
                     </td>
                   </tr>
                   <tr>
@@ -127,7 +127,7 @@ export default function Registration() {
                       Branch Name
                     </td>
                     <td className="border-2 border-zinc-700 p-2">
-                      NIT Durgapur
+                    R.E College (Durgapur)
                     </td>
                   </tr>
                   <tr>
@@ -135,7 +135,7 @@ export default function Registration() {
                       Bank Address
                     </td>
                     <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                      M. G. Avenue, Durgapur-713209, West Bengal, India
+                    SBI, RE College, M. G. Avenue, Durgapur-713209, West Bengal, India
                     </td>
                   </tr>
                   <tr>
@@ -143,7 +143,15 @@ export default function Registration() {
                       IFSC Code
                     </td>
                     <td className="border-2 border-zinc-700 p-2">
-                      CNRB0008569
+                    SBIN0002108
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
+                      CIF Number
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
+                    81244040204
                     </td>
                   </tr>
                   <tr>
@@ -151,7 +159,7 @@ export default function Registration() {
                       MICR Code
                     </td>
                     <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                      713015203
+                    713002204
                     </td>
                   </tr>
                   <tr>
@@ -159,7 +167,7 @@ export default function Registration() {
                       SWIFT Code
                     </td>
                     <td className="border-2 border-zinc-700 p-2">
-                      CNRBINBBBFD
+                    SBININBB
                     </td>
                   </tr>
                 </tbody>

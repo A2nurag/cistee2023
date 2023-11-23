@@ -35,16 +35,16 @@ export default function Dates() {
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Final Camera-ready paper submission
-                <span className="text-lg font-black">30th November 2023</span>
+                <span className="text-lg font-black">02nd December 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Deadline for early bird registration
-                <span className="text-lg font-black">30th November 2023</span>
+                <span className="text-lg font-black">03rd December 2023</span>
               </li>
 
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Deadline for Late Registration
-                <span className="text-lg font-black">3rd December 2023</span>
+                <span className="text-lg font-black">05th December 2023</span>
               </li>
               <li className="p-4 border-2 border-slate-800 border-opacity-80 rounded-md font-bold flex flex-col gap-1 items-center lg:flex-row lg:justify-between">
                 Conference Dates
