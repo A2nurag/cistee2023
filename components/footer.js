@@ -8,10 +8,9 @@ export default function Footer() {
       className={`bg-slate-300 py-5 w-full text-slate-800 px-2 ${inter.className}`}
     >
       <div className="container mx-auto max-w-7xl">
-        <div className="flex flex-col lg:flex-row justify-between text-slate-800">
-          <div className="py-2 max-w-2xl">
+        <div className="flex flex-col justify-between text-slate-800 text-center items-center">
+          <div className="py-2 max-w-2xl border-b-black border-b my-2">
             <p className="font-bold text-2xl">CISTEE 2023</p>
-
             <p className="mt-2">
               Computational Intelligence and Smart Technologies in Electrical
               Engineering
@@ -24,9 +23,8 @@ export default function Footer() {
               Terms and Conditions
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row items-center gap-2">
+          <div className="flex flex-col lg:flex-row items-center gap-3 justify-center">
             <img src="/nitd.png" className="max-h-24 bg-blend-darken" />
-
             <img src="/manit bhopal.png" className="max-h-24" />
             <img src="/7818.jpg" className="max-h-32" />
             <svg
@@ -49,6 +47,8 @@ export default function Footer() {
                 />
               </g>
             </svg>
+
+            <img src="/iet transparent.png" className="max-h-28" />
           </div>
         </div>
       </div>
