@@ -24,71 +24,80 @@ export default function bankdetails() {
                         </h2>
 
                         <table className="table-fixed border md:ml-6">
-                            <tbody>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 pr-16 font-bold bg-blue-100">
-                                        Name of Account
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2 pr-16 bg-blue-100">
-                                        CISTEE 2023
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold">
-                                        Account Number
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2"></td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
-                                        Name of Bank
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                                        Canara Bank
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold">
-                                        Branch Name
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2">
-                                        NIT Durgapur
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
-                                        Bank Address
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                                        M. G. Avenue, Durgapur-713209, West Bengal, India
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold ">
-                                        IFSC Code
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2">
-                                        CNRB0008569
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
-                                        MICR Code
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
-                                        713015203
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="border-2 border-zinc-700 p-2 font-bold">
-                                        SWIFT Code
-                                    </td>
-                                    <td className="border-2 border-zinc-700 p-2">
-                                        CNRBINBBBFD
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <tbody>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 pr-16 font-bold bg-blue-100">
+                      Name of Account
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 pr-16 bg-blue-100">
+                      CEP NIT Durgapur
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold">
+                      Account Number
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2">
+                      37850318679
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
+                      Name of Bank
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
+                      State Bank of India
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold">
+                      Branch Name
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2">
+                      R.E College (Durgapur)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
+                      Bank Address
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
+                      SBI, RE College, M. G. Avenue, Durgapur-713209, West
+                      Bengal, India
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold ">
+                      IFSC Code
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2">
+                      SBIN0002108
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
+                      CIF Number
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
+                      81244040204
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold bg-blue-100">
+                      MICR Code
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2 bg-blue-100">
+                      713002204
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border-2 border-zinc-700 p-2 font-bold">
+                      SWIFT Code
+                    </td>
+                    <td className="border-2 border-zinc-700 p-2">SBININBB</td>
+                  </tr>
+                </tbody>
+              </table>
                     </div>
                 </section>
             </main>
